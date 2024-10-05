@@ -1,0 +1,113 @@
+// section {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     width: 100%;
+//     max-width: 1920px;
+//     scroll-margin-top: 100px;
+
+//     img {
+//         height: 39px;
+//         width: 39px;
+//         display: flex;
+//     }
+// }
+
+// .go-back-arrow {
+//     display: flex;
+//     justify-content: flex-end;
+//     margin-right: 8%;
+//     margin-top: 8%;
+//     cursor: pointer;
+
+//     &:hover svg path {
+//         fill: #70e61c;
+//     }
+// }
+
+// span {
+//     color: red;
+//     font-size: 1vw;
+// }
+
+// p {
+//     color: white;
+//     font-weight:400 ;
+//     font-size: 16px;
+// }
+
+// .contact-wrapper {
+//     display: flex;
+// }
+
+// .contact-headline {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .left-content {
+//     width: 50%;
+//     margin-left: 8%;
+// }
+
+// form {
+//     display: flex;
+//     flex-direction: column;
+//     width: 50%;
+//     margin-left: 10%;
+//     margin-right: 8%;
+// }
+
+// input, textarea {
+//     border: 1px solid #9747FF;
+//     border-radius: 10px; 
+//     padding: 10px;
+//     margin-bottom: 20px;
+//     color: white;
+//     background-color: #141D2F;
+
+//     &:hover {
+//         border-color: #70E61C; 
+//     }
+
+//     &:focus {
+//         border-color: red;
+//         background-image: url('./../../../assets/img/warning-icon.png'); 
+//         background-repeat: no-repeat; 
+//         background-position: right 10px center;
+//     }
+
+//     &:valid {
+//         border-color: #70E61C; 
+//         background-image: url('./../../../assets/img/check-icon.png');
+//         background-position: right 10px center; 
+//         background-repeat: no-repeat; 
+//     }
+
+//     &.invalid {
+//         border-color: red;
+//         background-image: url('./../../../assets/img/warning-icon.png'); 
+//         background-position: right 10px center; 
+//         background-repeat: no-repeat;
+//     }
+// }
+
+// textarea {
+//     height: 100px; 
+// }
+
+// input[type="checkbox"] {
+//     border-color: #70e61c;
+//     margin-right: 10px;
+//     background-color: #141D2F;
+// }
+
+// label {
+//     color: white; 
+// }
+
+// a{
+//     color: #9747FF; 
+//     text-decoration: none;
+// }
+

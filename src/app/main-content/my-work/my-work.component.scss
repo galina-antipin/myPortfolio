@@ -6,6 +6,7 @@ section {
     margin-left: 8%;
     scroll-margin-top: 250px;
     margin-top: 5%;
+    position: relative;
 }
 
 p {
@@ -81,6 +82,7 @@ h1 {
     font-family: 'Baloo 2';
     color: #5988FF;
     font-size: 96px;
+    margin-bottom: 2%;
 }
 
 .left-content-middle {
@@ -91,12 +93,13 @@ h1 {
     &:hover {
         transform: scale(1.2);
         cursor: pointer;
-    
-    }}
 
-    img {
-        border-radius: 10px;
-        width: 80%;
+    }
+}
+
+img {
+    border-radius: 10px;
+    width: 80%;
 }
 
 .right-content-middle {
@@ -108,4 +111,46 @@ h1 {
 
 .text-align-left {
     text-align: left;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, #5988FF, #0043F0);
+    opacity: 0.8;
+}
+
+.circle1 {
+    height: 22%;
+    width: 22%;
+    bottom: 45%;
+    left: -15%;
+}
+
+.circle2 {
+    width: 7%;
+    height: 7%;
+    top: -5%;
+    left: 28%;
+}
+
+.circle3 {
+    width: 15%;
+    height: 15%;
+    top: -5%;
+    right: 5%;
+}
+
+.circle4 {
+    width: 22%;
+    height: 22%;
+    bottom: 15%;
+    right: -15%;
+}
+
+.circle5 {
+    width: 7%;
+    height: 7%;
+    bottom: 5%;
+    left: 5%;
 }
