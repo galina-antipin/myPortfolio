@@ -1,0 +1,111 @@
+section {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+    scroll-margin-top: 250px;
+    margin-top: 5%;
+}
+
+p {
+    color: #5988FF;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Baloo 2';
+}
+
+span {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.portfolio-headline {
+    display: flex;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h3 {
+    color: #5988FF;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.button-section {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content {
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+.space-between-buttons {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Baloo 2';
+    color: #5988FF;
+    font-size: 96px;
+}
+
+.left-content-middle {
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    
+    }}
+
+    img {
+        border-radius: 10px;
+        width: 80%;
+}
+
+.right-content-middle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.text-align-left {
+    text-align: left;
+}
