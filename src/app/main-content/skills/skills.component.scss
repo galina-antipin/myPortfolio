@@ -1,0 +1,47 @@
+section {
+    background: linear-gradient(to bottom, #5988FF, #0043F0);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 128px;
+    color: white;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+
+    img {
+        width: 50px;
+        margin-bottom: 10px;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    span {
+        color: white;
+        font-family: 'Montserrat';
+    }
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
