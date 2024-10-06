@@ -75,11 +75,30 @@ span {
 
 .circle {
     position: absolute; 
-    border-radius: 50%;
+    border-radius: 60%;
     background: radial-gradient(circle, #5988FF, #0043F0); 
     opacity: 0.8; 
-    height: 80%;
-    width: 40%;
-    top: -15%;
-    left: -5%; 
+    height: 110%;
+    width: 90%;
+    top: -20%;
+    left: -20%; 
 }
+
+.left-content {
+    position: relative; /* Stelle sicher, dass die positionierte Kindklasse sich relativ zu diesem Container verhält */
+    width: 60%; /* Breite der linken Inhalt */
+    height: calc(100vh - 100px); /* Höhe entsprechend anpassen */
+}
+
+.profile-image {
+    position: absolute; /* Damit wir das Bild frei im Container positionieren können */
+    bottom: 0; /* Positioniert das Bild am unteren Rand */
+    left: 50%; /* Zentriert das Bild horizontal */
+    transform: translateX(-50%); /* Verschiebt das Bild nach links um die eigene Breite, um es perfekt zu zentrieren */
+    z-index: 1; /* Stellt sicher, dass das Bild über dem Kreis ist */
+    width: auto; /* Passen Sie die Breite an oder setzen Sie einen festen Wert nach Bedarf */
+    height: 80vh; /* Passen Sie die Höhe an oder setzen Sie einen festen Wert nach Bedarf */
+    object-fit: cover;
+}
+
+

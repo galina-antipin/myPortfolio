@@ -30,6 +30,10 @@ h2 {
     justify-content: space-between;
     padding-top: 8%;
     padding-bottom: 5%;
+    background-image: url('./../../../assets/img/circle.png'),  url('./../../../assets/img/circle.png');
+    background-size: 12%, 5%;
+    background-position: center -18%, bottom 5% right;
+    background-repeat: no-repeat, no-repeat; 
 }
 
 .left-content {
@@ -57,28 +61,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.circle {
-    position: absolute; 
-    border-radius: 50%;
-    background: radial-gradient(circle, #5988FF, #0043F0); 
-    opacity: 0.8; 
-    height: 10%;
-    width: 4%;
-    top: 3%;
-    right: 20%; 
-}
-
-.circle1 {
-    position: absolute; 
-    border-radius: 50%;
-    background: radial-gradient(circle, #5988FF, #0043F0); 
-    opacity: 0.8; 
-    height: 30%;
-    width: 12%;
-    top: 5%;
-    right: 50%; 
 }
 
 .icons-section {
