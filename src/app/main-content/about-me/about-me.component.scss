@@ -1,8 +1,9 @@
 section {
     width: 100%;
-    max-width: 1920px;
     background-color: white;
     position: relative;
+    display: flex;
+    justify-content: center;
 
     h1 {
         color: #5988FF;
@@ -24,6 +25,7 @@ h2 {
 }
 
 .content-wrapper {
+    max-width: 1920px;
     margin-left: 8%;
     margin-right: 8%;
     display: flex;
@@ -53,6 +55,7 @@ h2 {
         font-family: 'Montserrat';
         font-size: 23px;
         margin-bottom: 2%;
+        font-weight: 400;
     }
 }
 

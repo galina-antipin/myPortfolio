@@ -2,12 +2,16 @@ section {
     background: linear-gradient(to bottom, #5988FF, #0043F0);
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1920px;
 }
 
 h1 {

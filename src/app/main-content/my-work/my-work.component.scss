@@ -1,9 +1,8 @@
 section {
-    max-width: 1920px;
+
     display: flex;
-    flex-direction: column;
-    margin-right: 8%;
-    margin-left: 8%;
+    justify-content: center;
+
     scroll-margin-top: 250px;
     padding-top: 6%;
     position: relative;
@@ -16,6 +15,12 @@ section {
         90% 15%,
         50% 99%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.my-work-wrapper {
+    max-width: 1920px;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 
 p {
