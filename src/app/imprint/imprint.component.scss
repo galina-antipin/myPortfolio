@@ -5,38 +5,15 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 5%;
     margin-left: 8%;
     font-family: 'Montserrat';
     position: relative;
     overflow: hidden;
-}
-
-.circle {
-    position: absolute; 
-    border-radius: 50%;
-    background: radial-gradient(circle, #5988FF, #0043F0); 
-    opacity: 0.8; 
-}
-
-.circle1 {
-    height: 22%;
-    width: 10%;
-    bottom: 10%;
-    left: 5%; 
-}
-
-.circle2 {
-    width: 5%;
-    height: 12%; 
-    top: 10%; 
-    right: 35%;
-}
-
-.circle3 {
-    width: 10%; 
-    height: 24%;
-    top: 60%; 
-    right: 5%; 
+    background-image: url('./../../assets/img/circle.png'), url('/../../assets/img/circle.png'), url('/../../assets/img/circle.png');
+    background-size: 12%, 15%;
+    background-repeat: no-repeat;
+    background-position: center -18%, bottom 15% right 3%, 20% 90%;
 }
 
 h2 {
