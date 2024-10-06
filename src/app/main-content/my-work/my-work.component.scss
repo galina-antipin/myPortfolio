@@ -1,8 +1,6 @@
 section {
-
     display: flex;
     justify-content: center;
-
     scroll-margin-top: 250px;
     padding-top: 6%;
     position: relative;
@@ -79,7 +77,8 @@ h3 {
 
 .right-content {
     display: flex;
-    justify-content: flex-start;
+    width: 50%;
+    justify-content: flex-end;
     transition: transform 0.2s ease;
     padding-right: 2%;
 
@@ -110,13 +109,12 @@ h1 {
         transform: scale(1.2);
         cursor: pointer;
         opacity: 0.7;
-
     }
 }
 
 img {
     border-radius: 10px;
-    width: 80%;
+    max-width: 80%
 }
 
 .right-content-middle {

@@ -5,7 +5,6 @@ section {
     color: #5988FF;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 
 h1 {
@@ -78,6 +77,15 @@ span {
     }
 }
 
+.profile-image {
+    position: absolute;
+    top: 55%; 
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 90vh;
+    z-index: 1; 
+}
+
 .circle {
     position: absolute; 
     border-radius: 60%;
@@ -87,6 +95,7 @@ span {
     width: 60%;
     top: -20%;
     left: -20%; 
+    z-index: 0; 
 }
 
 
