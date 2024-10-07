@@ -5,7 +5,6 @@
             <span>Here what my colleagues said about me</span>
         </div>
         <div class="references">
-
             @for (reference of references; track $index) {
             <div class="reference-card">
                 <h3>{{ reference.name }}</h3>
@@ -13,7 +12,7 @@
                 <br>
                 <p>{{ reference.reference }}</p>
             </div>
-}
+            }
         </div>
     </div>
 </section>

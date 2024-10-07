@@ -1,7 +1,6 @@
 section {
     display: flex;
     justify-content: center;
-    scroll-margin-top: 250px;
     padding-top: 6%;
     position: relative;
     background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
@@ -12,13 +11,14 @@ section {
         5% 50%,
         90% 15%,
         50% 99%;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
 }
 
 .my-work-wrapper {
     max-width: 1920px;
     margin-right: 8%;
     margin-left: 8%;
+    margin-bottom: 5%;
 }
 
 p {
