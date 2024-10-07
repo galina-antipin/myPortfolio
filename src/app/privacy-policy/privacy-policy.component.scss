@@ -1,0 +1,28 @@
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 18px;
+
+
+    h2 {
+        font-family: 'Baloo 2';
+        font-weight: 800;
+        font-size: 68px;
+        color: #5988FF;
+    }
+
+    h3 {
+        font-weight: 400;
+        color: #5988FF;
+    }
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
