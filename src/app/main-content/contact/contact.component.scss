@@ -2,6 +2,13 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
+    background-size: 8%, 3%, 10%;
+    background-position:
+        70% 5%,
+        85% 95%,
+        20% 80%;
+    background-repeat: no-repeat;
 
     h1 {
         font-family: 'Baloo 2';
@@ -39,13 +46,17 @@ section {
 }
 
 .contact-wrapper {
-    display: flex;
     max-width: 1920px;
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 5% 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 span {
@@ -65,6 +76,15 @@ form {
     flex-direction: column;
     width: 60%;
     justify-content: flex-start;
+}
+
+.left-content {
+    width: 45%;
+    margin-right: 15%;
+}
+
+.header {
+    margin-bottom: 5%;
 }
 
 input,
