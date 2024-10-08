@@ -28,15 +28,16 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 3%;
+    transition: transform 0.3s;
 
     img {
         width: 70px;
         margin-bottom: 10px;
-        transition: transform 0.3s;
+    }
 
-        &:hover {
-            transform: scale(1.2);
-        }
+    &:hover {
+        transform: scale(1.2);
+        font-weight: bold;
     }
 
     span {
