@@ -1,5 +1,5 @@
 section {
-    height: calc(100vh - 320px);
+    height: calc(100vh - 300px);
     width: 100%;
     font-family: 'Montserrat';
     background-image: url('./../../assets/img/circle.png'), url('/../../assets/img/circle.png'), url('/../../assets/img/circle.png');
@@ -15,6 +15,7 @@ section {
     justify-content: flex-start;
     margin-left: 8%;
     margin-right: 8%;
+    flex: 1;
 }
 
 h2 {
