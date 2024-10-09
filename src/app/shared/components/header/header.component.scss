@@ -6,9 +6,19 @@ header {
     height: 100px;
     font-family: 'Montserrat';
     background-color: white;
+    position: relative;
+    color: #5988FF;
 
     a {
         text-decoration: none;
+    }
+
+    img {
+        position: absolute;
+        top:0;
+        z-index:10;
+        width: 130px;
+        padding-top: 20px;
     }
 }
 
@@ -32,7 +42,8 @@ nav {
     display: flex;
     align-items: center;
 
-    a,span {
+    a,
+    span {
         position: relative;
         color: #5988FF;
         text-decoration: none;
