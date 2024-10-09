@@ -11,9 +11,9 @@
                 <h3>{{ project.technologies }}</h3>
                 <span>{{ project.description }}</span>
                 <div class="button-section">
-                    <a [href]="project.liveLink" class="test-button"> <button>Live test</button></a>
+                    <a href="{{project.liveLink}}" target="_blank" class="test-button"><button>Live test</button></a>
                     <div class="space-between"></div>
-                    <a [href]="project.githubLink" class="github-button"> <button>GitHub</button></a>
+                    <a href="{{project.githubLink}}" target="_blank" class="github-button"><button>GitHub</button></a>
                 </div>
             </div>
             <div class="project-content">

@@ -16,8 +16,8 @@ export class MyWorkComponent {
       description: 'Task Manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
       technologies: 'JavaScript | Firebase | HTML | CSS',
       image: './../../../assets/img/join-img.png',
-      liveLink: '#',  // Ersetze dies durch den Live-Link
-      githubLink: '#' // Ersetze dies durch den GitHub-Link
+      liveLink: '#', 
+      githubLink: 'https://github.com/galina-antipin/join'
     },
     {
       title: 'El Pollo Loco',
@@ -25,7 +25,7 @@ export class MyWorkComponent {
       technologies: 'JavaScript | HTML | CSS',
       image: './../../../assets/img/game-img.png',
       liveLink: '#',
-      githubLink: '#'
+      githubLink: 'https://github.com/galina-antipin/El-Pollo-Loco'
     },
     {
       title: 'Pokédex',
@@ -33,7 +33,7 @@ export class MyWorkComponent {
       technologies: 'JavaScript | HTML | CSS | API',
       image: './../../../assets/img/pokedex-img.png',
       liveLink: '#',
-      githubLink: '#'
+      githubLink: 'https://github.com/galina-antipin/Pokedex'
     }
   ];
 }

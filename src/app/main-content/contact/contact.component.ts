@@ -23,10 +23,10 @@ export class ContactComponent{
     acceptPolicy: false,
   }
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://galina-antipin.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
