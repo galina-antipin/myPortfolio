@@ -34,10 +34,10 @@ h2 {
     justify-content: space-between;
     padding-top: 8%;
     padding-bottom: 5%;
-    background-image: url('./../../../assets/img/circle.png'),  url('./../../../assets/img/circle.png');
+    background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
     background-size: 12%, 5%;
     background-position: center -18%, bottom 5% right;
-    background-repeat: no-repeat, no-repeat; 
+    background-repeat: no-repeat, no-repeat;
 }
 
 .left-content {
@@ -70,10 +70,99 @@ h2 {
 img {
     margin-right: 10px;
 }
+
 .white-space-nowrap {
     white-space: nowrap;
 }
 
+.icons-section {
+    display: flex;
+
+    div {
+        display: flex;
+    }
+}
+
 .icons-section img:hover[src*="location-icon.png"] {
-    content: url('./../../../assets/img/location-icon-hover.png'); 
+    content: url('./../../../assets/img/location-icon-hover.png');
+}
+
+@media(max-width: 1200px) {
+
+    h1 {
+        font-size: 5rem !important;
+    }
+}
+
+h2 {
+    font-size: 1.375rem;
+}
+
+span {
+    font-size: 1.2rem !important;
+}
+
+@media(max-width: 1089px) {
+    span {
+        font-size: 1rem !important;
+    }
+}
+
+@media(max-width: 969px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+
+    .icons-section {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+
+        div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 883px) {
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .text-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .right-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:386px){
+    h1 {
+        font-size: 3rem !important;
+    }
+
+    span {
+        font-size: 0.9rem !important;
+    }
 }
