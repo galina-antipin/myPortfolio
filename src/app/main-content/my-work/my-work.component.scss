@@ -5,13 +5,13 @@ section {
     padding-top: 6%;
     position: relative;
     background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
-    background-size: 6%, 8%, 20%, 10%, 4%;
+    background-size: 6%, 25%, 20%, 10%, 6%;
     background-position:
         30% 1.5%,
-        80% 50%,
+        120% 50%,
         -10% 40%,
         90% 15%,
-        50% 99%;
+        90% 99%;
     background-repeat: no-repeat;
 }
 
@@ -60,18 +60,19 @@ span {
     flex-direction: column;
     width: 50%;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content:flex-end;
+    padding-left: 50px;
 }
 
 h2 {
     font-family: 'Montserrat';
-    font-size:  1.375rem;
+    font-size: 1.375rem;
     font-weight: 400;
 }
 
 h3 {
     color: #5988FF;
-    font-size:  1.375rem;
+    font-size: 1.375rem;
     font-weight: 600;
     font-family: 'Montserrat';
 }
@@ -85,9 +86,9 @@ h3 {
 .project-content {
     display: flex;
     width: 50%;
-    justify-content: flex-start;
     transition: transform 0.2s ease;
-
+    padding-right: 50px;
+    
     &:hover {
         transform: scale(1.2);
         cursor: pointer;
@@ -108,20 +109,24 @@ h1 {
 
 img {
     border-radius: 10px;
-    max-width: 99%;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .middle-container {
     .project-content {
         justify-content: flex-end;
+        padding-right: 0;
+        padding-left: 50px;
     }
 
     .description-content {
         align-items: flex-end;
         text-align: right;
+        padding-right: 50px;
     }
 
     .button-section {
         justify-content: flex-end
-    }   
+    }
 }
