@@ -36,6 +36,8 @@ export class ContactComponent{
     },
   };
 
+   buttonText = 'Send message :)'
+
   onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
@@ -43,9 +45,16 @@ export class ContactComponent{
           next: (response) => {
 
             ngForm.resetForm();
+            this.buttonText = 'Message was sent!';
+
+            setTimeout(() => {
+              this.buttonText = 'Send message :)';
+          }, 3000);
+
           },
           error: (error) => {
             console.error(error);
+            this.buttonText = 'Error sending email';
           },
           complete: () => console.info('send post complete'),
         });

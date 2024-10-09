@@ -9,6 +9,7 @@ section {
         85% 95%,
         20% 80%;
     background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF, #EAF0FF);
 
     h1 {
         font-family: 'Baloo 2';
@@ -101,14 +102,12 @@ textarea {
     }
 
     &:focus {
-        border: 1px solid #5988FF;
         background-image: url('./../../../assets/img/warning-icon.png');
         background-repeat: no-repeat;
         background-position: right 10px center;
     }
 
     &:valid {
-        border: 1px solid #5988FF;
         background-image: url('./../../../assets/img/check-icon.png');
         background-position: right 10px center;
         background-repeat: no-repeat;

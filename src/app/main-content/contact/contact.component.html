@@ -37,11 +37,13 @@
                         the
                         processing of my data as outlined.</label>
                 </div>
-                @if (contactForm.submitted && !contactData.acceptPolicy){ <span class="error" [ngClass]="{'invalid': !message.valid && message.touched}">Please accept the privacy
+                @if (contactForm.submitted && !contactData.acceptPolicy){ <span class="error" [ngClass]="{'invalid': !message.valid}">Please accept the privacy
                     policy.</span>}
                
-                <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}">Send
-                    message :)</button>
+                    <button class="send-button" type="submit" 
+                    [ngClass]="{'active': !message.valid && message.touched}" >
+                {{ buttonText }}
+            </button>
             </form>
         </div>
     </div>
