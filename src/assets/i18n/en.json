@@ -73,5 +73,9 @@
 
     "FOOTER": {
         "IMPRINT": "Imprint" 
+      },
+
+      "IMPRINT": {
+        "TITLE": "Imprint"
       }
 }
