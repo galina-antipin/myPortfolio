@@ -1,13 +1,14 @@
 <header id="header">
     <section>
         <div>
-        <a href="/"><img src="./../../../../assets/img/logo.png" alt="Logo"></a>
+            <a href="/"><img src="./../../../../assets/img/logo.png" alt="Logo"></a>
         </div>
         <nav>
-            <a href="#about-me">About me</a>
-            <a href="#skills">Skills</a>
-            <a href="#my-work">My work</a>  
-            <span>DE</span>|<span>EN</span>
+            <a href="#about-me">{{ 'HEADER.ABOUT_ME' | translate }}</a>
+            <a href="#skills">{{ 'HEADER.SKILLS' | translate }}</a>
+            <a href="#my-work">{{ 'HEADER.MY_WORK' | translate }}</a>
+            <span (click)="translate.switchLanguage('de')">{{ 'HEADER.LANGUAGE_DE' | translate }}</span>|
+            <span (click)="translate.switchLanguage('en')">{{ 'HEADER.LANGUAGE_EN' | translate }}</span>
         </nav>
     </section>
 </header>
