@@ -15,7 +15,6 @@ section {
     justify-content: flex-start;
     margin-left: 8%;
     margin-right: 8%;
-    flex: 1;
 }
 
 h2 {
@@ -29,4 +28,12 @@ span {
     font-family: 'Montserrat';
     font-size: 1.125rem;
     color: black;
+}
+
+@media (max-width: 406px){
+    .wrapper{
+        margin-left:2%;
+        margin-right: 2%;
+        align-items: center;
+    }
 }

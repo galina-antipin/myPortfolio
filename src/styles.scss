@@ -26,6 +26,12 @@
       transform: scale(1.05);
     }
   }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
   
 /* baloo-2-regular - latin */
 @font-face {
