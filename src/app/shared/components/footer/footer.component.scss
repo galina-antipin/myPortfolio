@@ -25,12 +25,14 @@ footer {
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .footer-bottom {

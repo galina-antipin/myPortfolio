@@ -69,5 +69,9 @@
         "PRIVACY_POLICY": "privacy-policy",
         "PRIVACY_AGREE": " and agree to the processing of my data.",
         "ACCEPT_PRIVACY": "Please accept the privacy policy."
-    }
+    },
+
+    "FOOTER": {
+        "IMPRINT": "Imprint" 
+      }
 }

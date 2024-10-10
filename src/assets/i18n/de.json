@@ -59,7 +59,7 @@
         "PROBLEM": "Hast du ein Problem zu lösen?",
         "INTRO": "Kontaktiere mich über dieses Formular. Ich bin daran interessiert, von deinen Ideen zu hören und gemeinsam an deinen Projekten zu arbeiten.",
         "NEED_DEV": "Brauchst du eine Frontend-Entwicklerin?",
-        "CONTACT_ME": "<b>Kontaktiere mich!</b>", 
+        "CONTACT_ME": "Kontaktiere mich!", 
         "NAME_PLACEHOLDER": "Dein Name",
         "EMAIL_PLACEHOLDER": "Deine E-Mail",
         "MESSAGE_PLACEHOLDER": "Deine Nachricht",
@@ -70,5 +70,9 @@
         "PRIVACY_POLICY": "Datenschutzrichtlinien",
         "PRIVACY_AGREE": " gelesen und stimme der Verarbeitung meiner Daten zu.", 
         "ACCEPT_PRIVACY": "Bitte akzeptiere die Datenschutzrichtlinien."
+      },
+
+      "FOOTER": {
+        "IMPRINT": "Impressum"
       }
 }
