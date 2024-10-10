@@ -24,26 +24,33 @@
     },
     "SKILLS": {
         "TITLE": "Fähigkeiten",
-          "GROWTH_MINDSET": "Wachstums Mindset"
+        "GROWTH_MINDSET": "Wachstums Mindset"
     },
-
     "WORK": {
         "TITLE": "Meine Arbeiten",
         "SUBTITLE": "Erkunde eine Auswahl meiner Arbeiten hier - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
         "PROJECT": {
-          "TITLE": {
-            "JOIN": "Join",
-            "POLLO_LOCO": "El Pollo Loco",
-            "POKEDEX": "Pokédex"
-          },
-          "DESCRIPTION": {
-            "JOIN": "Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
-            "POLLO_LOCO": "Spring-, Lauf- und Wurfspiel, das auf objektorientierter Programmierung basiert. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
-            "POKEDEX": "Basierend auf einer PokéAPI, eine einfache Bibliothek, die Informationen zu Pokémon bereitstellt und katalogisiert."
-          },
-          "TECHNOLOGIES": "Technologien",
-          "LIVE_TEST": "Live-Test",
-          "GITHUB": "GitHub"
+            "TITLE": {
+                "JOIN": "Join",
+                "POLLO_LOCO": "El Pollo Loco",
+                "POKEDEX": "Pokédex"
+            },
+            "DESCRIPTION": {
+                "JOIN": "Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
+                "POLLO_LOCO": "Spring-, Lauf- und Wurfspiel, das auf objektorientierter Programmierung basiert. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
+                "POKEDEX": "Basierend auf einer PokéAPI, eine einfache Bibliothek, die Informationen zu Pokémon bereitstellt und katalogisiert."
+            },
+            "TECHNOLOGIES": "Technologien",
+            "LIVE_TEST": "Live-Test",
+            "GITHUB": "GitHub"
         }
-      }
+    },
+    "REFERENCES": {
+        "TITLE": "Brauchst du einen Teamplayer?",
+        "SUBTITLE": "Das sagen meine Kollegen über mich",
+        "REFERENCE_1": "\"Galina war bei unserem Projekt immer mit vollem Einsatz bei der Sache. Sie hat ihre Aufgaben sehr sorgfältig und selbstständig erledigt und hatte dabei ein gutes Zeitmanagement. Mit ihrer Detailorientierung hat sie dafür gesorgt, dass nichts übersehen wird. Auch in stressigen Phasen war sie immer positiv gestimmt und hat gute Laune versprüht. Durch ihre Empathie und Hilfsbereitschaft war sie außerdem wichtig für die Moral im Team. Ihre große Zielstrebigkeit hat entscheidend zum Erfolg des Projekts beigetragen.\"",
+        "REFERENCE_2": "\"Galina war eine großartige Teamkollegin. Ihr Ehrgeiz und ihre selbstständige und sichere Art, Herausforderungen anzugehen und zu bewältigen, haben unser Projekt vorangetrieben und wesentlich dazu beigetragen, zur Deadline sauber funktionierende Ergebnisse zu haben. Ich würde mich freuen, wieder mit Galina zu arbeiten.\"",
+        "REFERENCE_3": "\"Ich hatte das Vergnügen, in zwei unterschiedlichen Gruppenprojekten mit Galina zusammenzuarbeiten. Ihre Anpassungsfähigkeit im Team und ihre außergewöhnliche Bereitschaft, sich den komplexesten Aufgaben zu stellen, machten sie zu einer unverzichtbaren Bereicherung in beiden Projekten. Auch außerhalb der Gruppenarbeit konnte ich eine steile Lernkurve bei ihr beobachten. Besonders beeindruckend war ihr objektorientiertes Projekt, welches sie in kürzester Zeit professionell umsetzte. Mit Galina verliefen die Gruppenprojekte stets äußerst angenehm und reibungslos.\"",
+        "PROJECT": "Projekt"
+    }
 }

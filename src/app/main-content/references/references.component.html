@@ -1,16 +1,16 @@
 <section>
     <div class="content-wrapper">
         <div class="headline">
-            <h1>Need a teamplayer?</h1>
-            <span>Here what my colleagues said about me</span>
+            <h1>{{ 'REFERENCES.TITLE' | translate }}</h1>
+            <span>{{ 'REFERENCES.SUBTITLE' | translate }}</span>
         </div>
         <div class="references">
             @for (reference of references; track $index) {
             <div class="reference-card">
                 <h3>{{ reference.name }}</h3>
-                <h4>Project {{ reference.project }}</h4>
+                <h4>{{ 'REFERENCES.PROJECT' | translate }} {{ reference.project }}</h4>
                 <br>
-                <p>{{ reference.reference }}</p>
+                <p>{{ 'REFERENCES.REFERENCE_' + ($index + 1) | translate }}</p>
             </div>
             }
         </div>
