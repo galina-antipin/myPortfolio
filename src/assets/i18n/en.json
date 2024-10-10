@@ -52,5 +52,22 @@
         "REFERENCE_2": "\"Galina was a fantastic colleague. Her ambition and her independent and confident approach to tackling and overcoming challenges drove our project forward and played a significant role in delivering well-functioning results by the deadline. I would be happy to work with Galina again.\"",
         "REFERENCE_3": "\"I had the pleasure of working with Galina on two different group projects. Her adaptability within the team and her exceptional willingness to tackle the most complex tasks made her an invaluable asset in both projects. Even outside of group work, I observed a steep learning curve in her. Particularly impressive was her object-oriented project, which she executed professionally in a very short time. Working with Galina made the group projects always extremely pleasant and smooth.\"",
         "PROJECT": "Project"
+    },
+    "CONTACT": {
+        "TITLE": "Contact",
+        "PROBLEM": "Got a problem to solve?",
+        "INTRO": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+        "NEED_DEV": "Need a Frontend developer?",
+        "CONTACT_ME": "Contact me!",
+        "NAME_PLACEHOLDER": "Your name",
+        "EMAIL_PLACEHOLDER": "Your email",
+        "MESSAGE_PLACEHOLDER": "Your message",
+        "NAME_REQUIRED": "Your name is required",
+        "EMAIL_REQUIRED": "Your email is required",
+        "MESSAGE_EMPTY": "Your message is empty",
+        "PRIVACY_READ": "I've read the ",
+        "PRIVACY_POLICY": "privacy-policy",
+        "PRIVACY_AGREE": " and agree to the processing of my data.",
+        "ACCEPT_PRIVACY": "Please accept the privacy policy."
     }
 }

@@ -52,5 +52,23 @@
         "REFERENCE_2": "\"Galina war eine großartige Teamkollegin. Ihr Ehrgeiz und ihre selbstständige und sichere Art, Herausforderungen anzugehen und zu bewältigen, haben unser Projekt vorangetrieben und wesentlich dazu beigetragen, zur Deadline sauber funktionierende Ergebnisse zu haben. Ich würde mich freuen, wieder mit Galina zu arbeiten.\"",
         "REFERENCE_3": "\"Ich hatte das Vergnügen, in zwei unterschiedlichen Gruppenprojekten mit Galina zusammenzuarbeiten. Ihre Anpassungsfähigkeit im Team und ihre außergewöhnliche Bereitschaft, sich den komplexesten Aufgaben zu stellen, machten sie zu einer unverzichtbaren Bereicherung in beiden Projekten. Auch außerhalb der Gruppenarbeit konnte ich eine steile Lernkurve bei ihr beobachten. Besonders beeindruckend war ihr objektorientiertes Projekt, welches sie in kürzester Zeit professionell umsetzte. Mit Galina verliefen die Gruppenprojekte stets äußerst angenehm und reibungslos.\"",
         "PROJECT": "Projekt"
-    }
+    },
+
+    "CONTACT": {
+        "TITLE": "Kontakt",
+        "PROBLEM": "Hast du ein Problem zu lösen?",
+        "INTRO": "Kontaktiere mich über dieses Formular. Ich bin daran interessiert, von deinen Ideen zu hören und gemeinsam an deinen Projekten zu arbeiten.",
+        "NEED_DEV": "Brauchst du eine Frontend-Entwicklerin?",
+        "CONTACT_ME": "<b>Kontaktiere mich!</b>", 
+        "NAME_PLACEHOLDER": "Dein Name",
+        "EMAIL_PLACEHOLDER": "Deine E-Mail",
+        "MESSAGE_PLACEHOLDER": "Deine Nachricht",
+        "NAME_REQUIRED": "Dein Name ist erforderlich",
+        "EMAIL_REQUIRED": "Deine E-Mail ist erforderlich",
+        "MESSAGE_EMPTY": "Deine Nachricht ist leer",
+        "PRIVACY_READ": "Ich habe die ", 
+        "PRIVACY_POLICY": "Datenschutzrichtlinien",
+        "PRIVACY_AGREE": " gelesen und stimme der Verarbeitung meiner Daten zu.", 
+        "ACCEPT_PRIVACY": "Bitte akzeptiere die Datenschutzrichtlinien."
+      }
 }
