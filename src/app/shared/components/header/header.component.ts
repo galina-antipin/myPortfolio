@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../../../translation.service';
 
+
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -10,6 +11,5 @@ import { TranslationService } from '../../../translation.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  
   translate = inject(TranslationService);
 }

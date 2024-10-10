@@ -2,7 +2,7 @@
     "HEADER": {
         "ABOUT_ME": "Über mich",
         "SKILLS": "Fähigkeiten",
-        "MY_WORK": "Meine Arbeiten",
+        "MY_WORK": "Meine Projekte",
         "LANGUAGE_DE": "DE",
         "LANGUAGE_EN": "EN"
     },
@@ -10,7 +10,8 @@
         "HELLO": "Hallo! Ich bin Galina",
         "FRONTEND": "FRONTEND",
         "DEVELOPER": "ENTWICKLERIN",
-        "SCROLL": "SCROLLEN"
+        "SCROLL": "SCROLLEN",
+        "SCROLL_RESP": "Scrollen"
     },
     "WORK_TOGETHER": {
         "LET_WORK": "Lass uns",
@@ -27,7 +28,7 @@
         "GROWTH_MINDSET": "Wachstums Mindset"
     },
     "WORK": {
-        "TITLE": "Meine Arbeiten",
+        "TITLE": "Meine Projekte",
         "SUBTITLE": "Erkunde eine Auswahl meiner Arbeiten hier - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
         "PROJECT": {
             "TITLE": {

@@ -10,7 +10,8 @@
         "HELLO": "Hello! I am Galina",
         "FRONTEND": "FRONTEND",
         "DEVELOPER": "DEVELOPER",
-        "SCROLL": "SCROLL"
+        "SCROLL": "SCROLL",
+        "SCROLL_RESP": "Scroll down"
     },
     "WORK_TOGETHER": {
         "LET_WORK": "Let's work",
