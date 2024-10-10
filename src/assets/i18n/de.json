@@ -12,8 +12,18 @@
       "FRONTEND": "FRONTEND",
       "DEVELOPER": "ENTWICKLERIN",
       "SCROLL": "SCROLLEN"
-    }
+    },
 
+    "WORK_TOGETHER": {
+        "LET_WORK": "Lass uns",
+        "TOGETHER": "zusammenarbeiten",
+        "I_AM": "Ich bin",
+        "LOCATION": "in Thüringen ansässig",
+        "REMOTE": "bereit für Remote Arbeit",
+        "INTRO": "Hallo, ich bin eine Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT motiviert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
+        "CONTACT_MESSAGE": "Wenn du denkst, dass ich gut zu deinen Projekten passe, kontaktiere mich!",
+        "SEND_MESSAGE": "Nachricht senden"
+      }
 
 
 
