@@ -5,5 +5,12 @@
       "MY_WORK": "My work",
       "LANGUAGE_DE": "DE",
       "LANGUAGE_EN": "EN"
-    }
+    },
+
+    "LANDING_PAGE": {
+    "HELLO": "Hello! I am Galina",
+    "FRONTEND": "FRONTEND",
+    "DEVELOPER": "DEVELOPER",
+    "SCROLL": "SCROLL"
+  }
   }

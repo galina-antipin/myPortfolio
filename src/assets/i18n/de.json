@@ -5,5 +5,16 @@
       "MY_WORK": "Meine Arbeiten",
       "LANGUAGE_DE": "DE",
       "LANGUAGE_EN": "EN"
+    },
+
+    "LANDING_PAGE": {
+      "HELLO": "Hallo! Ich bin Galina",
+      "FRONTEND": "FRONTEND",
+      "DEVELOPER": "ENTWICKLERIN",
+      "SCROLL": "SCROLLEN"
     }
+
+
+
+
   }

@@ -10,6 +10,6 @@ import { TranslationService } from '../../../translation.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  
   translate = inject(TranslationService);
 }
