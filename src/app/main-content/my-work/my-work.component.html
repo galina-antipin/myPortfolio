@@ -1,23 +1,27 @@
 <section id="my-work">
     <div class="my-work-wrapper">
         <div class="portfolio-headline">
-            <h1>My work</h1>
-            <h2>Explore a selection of my work here - Interact with projects to see my skills in action.</h2>
+            <h1>{{ 'WORK.TITLE' | translate }}</h1>
+            <h2>{{ 'WORK.SUBTITLE' | translate }}</h2>
         </div>
-        @for(project of projects; track $index){
+        @for (project of projects; track $index) {
         <div class="portfolio-wrapper" [ngClass]="{'reverse': ($index === 0 || $index === 2), 'middle-container': $index === 1}">
             <div class="description-content">
-                <p>{{ project.title }}</p>
+                <p>{{ 'WORK.PROJECT.TITLE.' + project.id | translate }}</p>
                 <h3>{{ project.technologies }}</h3>
-                <span>{{ project.description }}</span>
+                <span>{{ 'WORK.PROJECT.DESCRIPTION.' + project.id | translate }}</span>
                 <div class="button-section">
-                    <a href="{{project.liveLink}}" target="_blank" class="test-button"><button>Live test</button></a>
+                    <a [href]="project.liveLink" target="_blank" class="test-button">
+                        <button>{{ 'WORK.PROJECT.LIVE_TEST' | translate }}</button>
+                    </a>
                     <div class="space-between"></div>
-                    <a href="{{project.githubLink}}" target="_blank" class="github-button"><button>GitHub</button></a>
+                    <a [href]="project.githubLink" target="_blank" class="github-button">
+                        <button>{{ 'WORK.PROJECT.GITHUB' | translate }}</button>
+                    </a>
                 </div>
             </div>
             <div class="project-content">
-                <img [src]="project.image" [alt]="project.title">
+                <img [src]="project.image" [alt]="project.id | translate">
             </div>
         </div>}
     </div>

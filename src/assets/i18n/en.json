@@ -25,5 +25,25 @@
     "SKILLS": {
         "TITLE": "Skills",
         "GROWTH_MINDSET": "Growth Mindset"
-    }
+    },
+
+    "WORK": {
+        "TITLE": "My Work",
+        "SUBTITLE": "Explore a selection of my work here - Interact with projects to see my skills in action.",
+        "PROJECT": {
+          "TITLE": {
+            "JOIN": "Join",
+            "POLLO_LOCO": "El Pollo Loco",
+            "POKEDEX": "Pokédex"
+          },
+          "DESCRIPTION": {
+            "JOIN": "Task Manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+            "POLLO_LOCO": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+            "POKEDEX": "Based on a PokéAPI a simple library that provides and catalogues Pokemon information."
+          },
+          "TECHNOLOGIES": "Technologies",
+          "LIVE_TEST": "Live test",
+          "GITHUB": "GitHub"
+        }
+      }
 }

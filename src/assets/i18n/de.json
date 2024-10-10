@@ -25,5 +25,25 @@
     "SKILLS": {
         "TITLE": "Fähigkeiten",
           "GROWTH_MINDSET": "Wachstums Mindset"
-    }
+    },
+
+    "WORK": {
+        "TITLE": "Meine Arbeiten",
+        "SUBTITLE": "Erkunde eine Auswahl meiner Arbeiten hier - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+        "PROJECT": {
+          "TITLE": {
+            "JOIN": "Join",
+            "POLLO_LOCO": "El Pollo Loco",
+            "POKEDEX": "Pokédex"
+          },
+          "DESCRIPTION": {
+            "JOIN": "Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
+            "POLLO_LOCO": "Spring-, Lauf- und Wurfspiel, das auf objektorientierter Programmierung basiert. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
+            "POKEDEX": "Basierend auf einer PokéAPI, eine einfache Bibliothek, die Informationen zu Pokémon bereitstellt und katalogisiert."
+          },
+          "TECHNOLOGIES": "Technologien",
+          "LIVE_TEST": "Live-Test",
+          "GITHUB": "GitHub"
+        }
+      }
 }
