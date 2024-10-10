@@ -1,11 +1,13 @@
 <section>
     <div class="content-wrapper">
-        <h1>Skills</h1>
-        <div class="icons-wrapper"> @for (skill of skills; track $index) {
-            <div class="img-wrapper">
-                <img [src]="skill.icon" [alt]="skill.name + ' icon'" />
-                <span>{{ skill.name }}</span>
-            </div>}
+        <h1>{{ 'SKILLS.TITLE' | translate }}</h1>
+        <div class="icons-wrapper"> 
+            @for (skill of skills; track $index) {
+                <div class="img-wrapper">
+                    <img [src]="skill.icon" [alt]="skill.name + ' icon'" />
+                    <span>{{ skill.name === 'Growth Mindset' ? ('SKILLS.GROWTH_MINDSET' | translate) : skill.name }}</span>
+                </div>
+            }
         </div>
     </div>
 </section>

@@ -1,19 +1,17 @@
 {
     "HEADER": {
-      "ABOUT_ME": "Über mich",
-      "SKILLS": "Fähigkeiten",
-      "MY_WORK": "Meine Arbeiten",
-      "LANGUAGE_DE": "DE",
-      "LANGUAGE_EN": "EN"
+        "ABOUT_ME": "Über mich",
+        "SKILLS": "Fähigkeiten",
+        "MY_WORK": "Meine Arbeiten",
+        "LANGUAGE_DE": "DE",
+        "LANGUAGE_EN": "EN"
     },
-
     "LANDING_PAGE": {
-      "HELLO": "Hallo! Ich bin Galina",
-      "FRONTEND": "FRONTEND",
-      "DEVELOPER": "ENTWICKLERIN",
-      "SCROLL": "SCROLLEN"
+        "HELLO": "Hallo! Ich bin Galina",
+        "FRONTEND": "FRONTEND",
+        "DEVELOPER": "ENTWICKLERIN",
+        "SCROLL": "SCROLLEN"
     },
-
     "WORK_TOGETHER": {
         "LET_WORK": "Lass uns",
         "TOGETHER": "zusammenarbeiten",
@@ -23,8 +21,9 @@
         "INTRO": "Hallo, ich bin eine Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT motiviert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
         "CONTACT_MESSAGE": "Wenn du denkst, dass ich gut zu deinen Projekten passe, kontaktiere mich!",
         "SEND_MESSAGE": "Nachricht senden"
-      }
-
-
-
-  }
+    },
+    "SKILLS": {
+        "TITLE": "Fähigkeiten",
+          "GROWTH_MINDSET": "Wachstums Mindset"
+    }
+}

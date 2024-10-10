@@ -1,27 +1,29 @@
 {
     "HEADER": {
-      "ABOUT_ME": "About me",
-      "SKILLS": "Skills",
-      "MY_WORK": "My work",
-      "LANGUAGE_DE": "DE",
-      "LANGUAGE_EN": "EN"
+        "ABOUT_ME": "About me",
+        "SKILLS": "Skills",
+        "MY_WORK": "My work",
+        "LANGUAGE_DE": "DE",
+        "LANGUAGE_EN": "EN"
     },
-
     "LANDING_PAGE": {
-    "HELLO": "Hello! I am Galina",
-    "FRONTEND": "FRONTEND",
-    "DEVELOPER": "DEVELOPER",
-    "SCROLL": "SCROLL"
-  },
-
-  "WORK_TOGETHER": {
-    "LET_WORK": "Let's work",
-    "TOGETHER": "together",
-    "I_AM": "I am",
-    "LOCATION": "located in Thuringia",
-    "REMOTE": "open to work remote",
-    "INTRO": "Hi, I'm a Frontend Developer based near Erfurt. I'm driven by the endless possibilities in IT, and I'm passionate about creating visually stunning and user-friendly websites and applications. My ability to solve complex problems and my passion for programming make me a valuable member of your team.",
-    "CONTACT_MESSAGE": "If you think I’d be a good match for your projects, contact me!",
-    "SEND_MESSAGE": "Send a message"
-  }
-  }
+        "HELLO": "Hello! I am Galina",
+        "FRONTEND": "FRONTEND",
+        "DEVELOPER": "DEVELOPER",
+        "SCROLL": "SCROLL"
+    },
+    "WORK_TOGETHER": {
+        "LET_WORK": "Let's work",
+        "TOGETHER": "together",
+        "I_AM": "I am",
+        "LOCATION": "located in Thuringia",
+        "REMOTE": "open to work remote",
+        "INTRO": "Hi, I'm a Frontend Developer based near Erfurt. I'm driven by the endless possibilities in IT, and I'm passionate about creating visually stunning and user-friendly websites and applications. My ability to solve complex problems and my passion for programming make me a valuable member of your team.",
+        "CONTACT_MESSAGE": "If you think I’d be a good match for your projects, contact me!",
+        "SEND_MESSAGE": "Send a message"
+    },
+    "SKILLS": {
+        "TITLE": "Skills",
+        "GROWTH_MINDSET": "Growth Mindset"
+    }
+}

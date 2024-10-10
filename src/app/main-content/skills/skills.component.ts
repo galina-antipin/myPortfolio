@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { TranslationService } from '../../translation.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
 })
@@ -21,4 +23,6 @@ export class SkillsComponent {
     { name: 'Material Design', icon: './../../../assets/img/material-design-icon.png' },
     { name: 'Growth Mindset', icon: './../../../assets/img/study-icon.png' },
   ];
+
+  translate = inject(TranslationService);
 }
