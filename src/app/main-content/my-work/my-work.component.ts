@@ -31,8 +31,8 @@ export class MyWorkComponent {
       id: 'POKEDEX',
       technologies: 'JavaScript | HTML | CSS | API',
       image: './../../../assets/img/pokedex-img.png',
-      liveLink: '#',
-      githubLink: 'https://pokedex/galina-antipin/Pokedex'
+      liveLink: 'https://pokedex/galina-antipin/Pokedex',
+      githubLink: 'https://github.com/galina-antipin/Pokedex'
     }
   ];
 
