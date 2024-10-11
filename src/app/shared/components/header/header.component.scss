@@ -15,11 +15,15 @@ header {
 
     img {
         position: absolute;
-        top:0;
-        z-index:10;
+        top: 0;
+        z-index: 10;
         width: 130px;
         padding-top: 20px;
     }
+}
+
+.d-none {
+    display: none !important;
 }
 
 h1 {
@@ -41,6 +45,7 @@ section {
 nav {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 
     a,
     span {
@@ -70,4 +75,31 @@ nav {
             }
         }
     }
+}
+
+.hamburger-line {
+    width: 32px;
+    height: 4px;
+    background-color: #5988FF;
+    ;
+    margin-top: 4px;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+@media(max-width:760px) {
+    nav {
+        display: none;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
 }
