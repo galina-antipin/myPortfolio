@@ -1,5 +1,7 @@
-<div id="app"><app-header></app-header>
+<div id="app"><app-header (toggleMenu)="toggleMenu()"></app-header>
     <div><router-outlet></router-outlet></div>
-    <app-responsive-menu></app-responsive-menu>
+    @if (isOpen) {
+        <app-responsive-menu></app-responsive-menu>
+    }
     <app-footer></app-footer>
 </div>

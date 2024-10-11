@@ -10,12 +10,12 @@
             <span (click)="translate.switchLanguage('de')">{{ 'HEADER.LANGUAGE_DE' | translate }}</span>|
             <span (click)="translate.switchLanguage('en')">{{ 'HEADER.LANGUAGE_EN' | translate }}</span>
         </nav>
-        <a class="responsive-menu" href="#responsive-menu">
+        <div class="responsive-menu"(click)="toggleMenuClick()">
             <div class="hamburger-icon">
                 <div class="hamburger-line"></div>
                 <div class="hamburger-line"></div>
                 <div class="hamburger-line"></div>
             </div>
-        </a>
+        </div>
     </section>
 </header>

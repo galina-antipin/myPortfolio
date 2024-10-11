@@ -53,10 +53,14 @@ span {
     color: #5988FF;
     text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+        text-decoration:underline;
+    }
 }
 
 .translation-section {
     display: flex;
     align-items: center;
-
 }
+

@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, Output, EventEmitter } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../../../translation.service';
 
@@ -11,5 +11,11 @@ import { TranslationService } from '../../../translation.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  @Output() toggleMenu = new EventEmitter<void>();
+
   translate = inject(TranslationService);
+
+  toggleMenuClick() {
+    this.toggleMenu.emit();
+  }
 }

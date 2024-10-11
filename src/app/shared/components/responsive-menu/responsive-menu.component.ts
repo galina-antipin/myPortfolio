@@ -11,4 +11,11 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class ResponsiveMenuComponent {
   translate = inject(TranslationService);
+
+  isOpen = true;
+
+  closeMenu() {
+    this.isOpen = !this.isOpen; 
+  }
 }
+
