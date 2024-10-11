@@ -10,9 +10,6 @@
                 <p>{{ 'CONTACT.INTRO' | translate }}</p>
                 <br>
                 <h3>{{ 'CONTACT.NEED_DEV' | translate }} <b>{{ 'CONTACT.CONTACT_ME' | translate }}</b></h3>
-
-                <!-- <a href="#header"> <img src="./../../../assets/img/arrow-top-icon.png" alt="Arrow top">
-                </a> -->
             </div>
             <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
                 <input #name="ngModel" [(ngModel)]="contactData.name" name="name" type="text" id="name"
@@ -46,6 +43,9 @@
                 <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}">
                     {{ buttonText }}
                 </button>
+
+                      <a href="#header"> <img src="./../../../assets/img/arrow-top-icon.png" alt="Arrow top">
+                </a>
             </form>
         </div>
     </div>
