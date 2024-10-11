@@ -29,10 +29,12 @@ header {
     width: 30px;
     height: 30px;
     margin-right: 12%;
+    cursor: pointer;
 }
 
 .logo {
     width: 150px;
+    cursor: pointer;
 }
 
 .hamburger-menu a {
@@ -50,6 +52,7 @@ span {
     font-size: 1.4375rem;
     color: #5988FF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .translation-section {

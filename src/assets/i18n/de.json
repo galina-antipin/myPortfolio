@@ -1,7 +1,7 @@
 {
     "HEADER": {
         "ABOUT_ME": "Über mich",
-        "SKILLS": "Fähigkeiten",
+        "SKILLS": "Skills",
         "MY_WORK": "Projekte",
         "LANGUAGE_DE": "DE",
         "LANGUAGE_EN": "EN"
@@ -14,17 +14,17 @@
         "SCROLL_RESP": "Scrollen"
     },
     "WORK_TOGETHER": {
-        "LET_WORK": "Lass uns",
-        "TOGETHER": "gemeinsam arbeiten",
+        "LET_WORK": "Let's work",
+        "TOGETHER": "together",
         "I_AM": "Ich bin",
         "LOCATION": "in Thüringen ansässig",
         "REMOTE": "bereit für Remote Arbeit",
-        "INTRO": "Hallo, ich bin eine Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT motiviert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
+        "INTRO": "Hallo, ich bin eine deutschsprachige Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT motiviert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
         "CONTACT_MESSAGE": "Wenn du denkst, dass ich gut zu deinen Projekten passe, kontaktiere mich!",
         "SEND_MESSAGE": "Nachricht senden"
     },
     "SKILLS": {
-        "TITLE": "Fähigkeiten",
+        "TITLE": "Skills",
         "GROWTH_MINDSET": "Wachstums Mindset"
     },
     "WORK": {
@@ -82,8 +82,8 @@
     },
     "MENU": {
         "ABOUT_ME": "Über mich",
-        "SKILLS": "Fähigkeiten",
-        "MY_WORK": "Meine Projekte",
+        "SKILLS": "Skills",
+        "MY_WORK": "Projekte",
         "CONTACT": "Kontakt"
     }
 }
