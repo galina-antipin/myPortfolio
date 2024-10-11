@@ -19,7 +19,7 @@ section {
     }
 
     h4 {
-        font-size: 1.125rem; 
+        font-size: 1.125rem;
         font-family: 'Montserrat';
         font-weight: 400;
     }
@@ -65,3 +65,33 @@ section {
     flex-direction: column;
     max-width: 30%;
 }
+
+.references {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+
+    @media (max-width: 1000px) {
+        flex-wrap: nowrap;
+    }
+}
+
+.reference-card {
+    flex: 0 0 70%;
+    align-items: center;
+    margin-right: 20px;
+    min-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.references {
+    overflow-x: scroll; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+  }
+  
+  .references::-webkit-scrollbar {
+      display: none; 
+  }
+
