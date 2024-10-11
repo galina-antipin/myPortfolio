@@ -1,4 +1,4 @@
-@if (isOpen){<section id="responsive-menu">
+@if (isOpen){<section id="responsive-menu" [ngClass]="{'open': isOpen}">
     <div class="menu-wrapper">
         <header> <img class="logo" src="./../../../../assets/img/logo.png" alt="Logo">
             <img class="close-btn" src="./../../../../assets/img/close-icon.png" alt="Close Icon" (click)="closeMenu()">

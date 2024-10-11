@@ -23,8 +23,8 @@ import { ResponsiveMenuComponent } from './shared/components/responsive-menu/res
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  isOpen = false;
-  title = 'portfolio';
+  isOpen:boolean = false;
+  title:string = 'portfolio';
 
   toggleMenu() {
     this.isOpen = !this.isOpen; 
