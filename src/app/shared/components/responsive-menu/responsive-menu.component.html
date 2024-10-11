@@ -1,10 +1,17 @@
 <section id="responsive-menu">
-    <div class="hamburger-menu" >
-        <a href="">About me</a>
-        <a href="">Skills</a>
-        <a href="">My work</a>
-        <a href="">Contact</a>
-        <span (click)="translate.switchLanguage('de')">DE</span>|
-        <span (click)="translate.switchLanguage('en')">EN</span>
+    <div class="menu-wrapper">
+        <header> <img class="logo" src="./../../../../assets/img/logo.png" alt="Logo">
+            <img class="close-btn" src="./../../../../assets/img/close-icon.png" alt="Close Icon">
+        </header>
+
+        <div class="hamburger-menu">
+            <a href="#about-me">{{ 'MENU.ABOUT_ME' | translate }}</a>
+            <a href="#skills">{{ 'MENU.SKILLS' | translate }}</a>
+            <a href="#my-work">{{ 'MENU.MY_WORK' | translate }}</a>
+            <a href="#contact">{{ 'MENU.CONTACT' | translate }}</a>
+            <div class="translation-section"> <span (click)="translate.switchLanguage('de')">DE</span> |
+                <span (click)="translate.switchLanguage('en')">EN</span>
+            </div>
+        </div>
     </div>
 </section>

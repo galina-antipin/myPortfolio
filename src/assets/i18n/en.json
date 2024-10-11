@@ -71,15 +71,19 @@
         "PRIVACY_AGREE": " and agree to the processing of my data.",
         "ACCEPT_PRIVACY": "Please accept the privacy policy."
     },
-
     "FOOTER": {
-        "IMPRINT": "Imprint" 
-      },
-
-      "IMPRINT": {
+        "IMPRINT": "Imprint"
+    },
+    "IMPRINT": {
         "TITLE": "Imprint"
-      },
-
-      "PRIVACY_POLICY": {
-        "TITLE": "Privacy policy"}
+    },
+    "PRIVACY_POLICY": {
+        "TITLE": "Privacy policy"
+    },
+    "MENU": {
+        "ABOUT_ME": "About me",
+        "SKILLS": "Skills",
+        "MY_WORK": "My work",
+        "CONTACT": "Contact"
+    }
 }

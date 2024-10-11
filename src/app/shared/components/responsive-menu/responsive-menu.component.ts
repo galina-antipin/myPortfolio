@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { TranslationService } from '../../../translation.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-responsive-menu',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './responsive-menu.component.html',
   styleUrl: './responsive-menu.component.scss'
 })
 export class ResponsiveMenuComponent {
-
+  translate = inject(TranslationService);
 }

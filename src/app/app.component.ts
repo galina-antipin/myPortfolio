@@ -13,11 +13,12 @@ import { SkillsComponent } from './main-content/skills/skills.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { LandingPageComponent } from './main-content/landing-page/landing-page.component';
+import { ResponsiveMenuComponent } from './shared/components/responsive-menu/responsive-menu.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, AboutMeComponent, HeaderComponent, FooterComponent, ContactComponent, ImprintComponent, LandingPageComponent, MyWorkComponent, ReferencesComponent, SkillsComponent, PrivacyPolicyComponent, MainContentComponent],
+  imports: [CommonModule, ResponsiveMenuComponent, RouterOutlet, AboutMeComponent, HeaderComponent, FooterComponent, ContactComponent, ImprintComponent, LandingPageComponent, MyWorkComponent, ReferencesComponent, SkillsComponent, PrivacyPolicyComponent, MainContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
