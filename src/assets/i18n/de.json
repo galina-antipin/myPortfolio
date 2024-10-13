@@ -19,7 +19,7 @@
         "I_AM": "Ich bin",
         "LOCATION": "in Thüringen ansässig",
         "REMOTE": "bereit für Remote Arbeit",
-        "INTRO": "Hallo, ich bin eine deutschsprachige Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT motiviert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
+        "INTRO": "Hallo, ich bin eine deutschsprachige Frontend-Entwicklerin aus Thüringen. Ich bin von den endlosen Möglichkeiten in der IT fasziniert und leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Websites und Anwendungen zu erstellen. Meine Fähigkeit, komplexe Probleme zu lösen, und meine Leidenschaft für das Programmieren machen mich zu einem wertvollen Mitglied deines Teams.",
         "CONTACT_MESSAGE": "Wenn du denkst, dass ich gut zu deinen Projekten passe, kontaktiere mich!",
         "SEND_MESSAGE": "Nachricht senden"
     },
@@ -29,7 +29,7 @@
     },
     "WORK": {
         "TITLE": "Projekte",
-        "SUBTITLE": "Erkunde eine Auswahl meiner Arbeiten hier - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+        "SUBTITLE": "Schau dir eine Auswahl meiner Arbeiten hier an - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
         "PROJECT": {
             "TITLE": {
                 "JOIN": "Join",
@@ -56,8 +56,8 @@
     },
     "CONTACT": {
         "TITLE": "Kontakt",
-        "PROBLEM": "Hast du ein Problem zu lösen?",
-        "INTRO": "Kontaktiere mich über dieses Formular. Ich bin daran interessiert, von deinen Ideen zu hören und gemeinsam an deinen Projekten zu arbeiten.",
+        "PROBLEM": "Got a problem to solve?",
+        "INTRO": "Kontaktiere mich über dieses Formular. Ich freue mich von deinen Ideen zu hören und gemeinsam an deinen Projekten zu arbeiten.",
         "NEED_DEV": "Brauchst du eine Frontend-Entwicklerin?",
         "CONTACT_ME": "Kontaktiere mich!",
         "NAME_PLACEHOLDER": "Dein Name",

@@ -5,6 +5,10 @@ section {
     color: #5988FF;
     display: flex;
     justify-content: center;
+    background-image: url('./../../../assets/img/circle.png');
+    background-size: 60%;
+    background-position: -40% 20%;
+    background-repeat: no-repeat;
 }
 
 .d-none {
@@ -32,6 +36,11 @@ span {
     max-width: 1920px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.left-content {
+
     width: 100%;
 }
 
@@ -139,8 +148,15 @@ span {
 }
 
 @media(max-width:1045px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 80%;
+        background-position: -160% 99%;
+    }
+
     h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .first {
@@ -157,13 +173,6 @@ span {
         left: 25%;
     }
 
-    .circle {
-        height: 80%;
-        width: 150%;
-        top: -20%;
-        left: -50%;
-    }
-
     .content-wrapper {
         margin-left: 8%;
         margin-right: 8%;
@@ -175,12 +184,6 @@ span {
 
     .right-content {
         margin-top: 5%;
-    }
-
-    .scroll-span,
-    .scroll-down-line,
-    .icon-wrapper {
-        display: none;
     }
 
     .scroll-down {
@@ -200,7 +203,13 @@ span {
     }
 }
 
-@media(max-width:818px) {
+@media(max-width:899px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 80%;
+        background-position: -160% 89%;
+    }
 
     h1 {
         font-size: 6rem;
@@ -214,20 +223,34 @@ span {
         font-size: 3rem;
     }
 
+    .scroll-span,
+    .scroll-down-line {
+        display: none;
+    }
+
 }
 
 @media(max-width:704px) {
 
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 120%;
+        background-position: 180% -250%;
+    }
+
     h1 {
         font-size: 5rem;
+        color: #FFFFFF;
     }
 
     .first {
         font-size: 4rem;
+        color: #FFFFFF;
     }
 
     span {
         font-size: 2.5rem;
+        color: #FFFFFF;
     }
 
     .profile-image {
@@ -236,19 +259,55 @@ span {
         left: 45%;
     }
 
-}
-
-@media(max-width:586px) {
-    h1 {
-        font-size: 4rem;
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding-right: 150px;
     }
 
-    .first {
-        font-size: 3rem;
+    .frontend-wrapper {
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width:670px) {
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 120%;
+        background-position: 180% -300%;
+    }
+
+    .icon-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width:625px) {
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 90%;
+        background-position: -150% -20%;
+    }
+
+    .left-content {
+        width: 0;
     }
 
     span {
-        font-size: 2rem;
+        font-size: 1.9rem;
+    }
+}
+
+@media(max-width:600px) {
+    h1 {
+        font-size: 3.9rem;
+    }
+
+    .first {
+        font-size: 2.9rem;
     }
 
     .content-wrapper {
@@ -265,33 +324,121 @@ span {
         height: 50vh;
         left: 45%;
     }
+
+    .right-content {
+        margin-top: 12%;
+        padding-right: 140px;
+    }
 }
 
-@media(max-width:481px) {
+@media(max-width:520px) {
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .first {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     span {
-        font-size: 2rem;
-    }
-
-    .right-content {
-        margin-top: 10%;
+        font-size: 1.8rem;
     }
 }
 
-@media(max-width:425px) {
+
+@media(max-width:481px) {
+
+    .right-content {
+        margin-top: 10%;
+        padding-right: 100px;
+    }
+
+    section {
+        background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
+        background-size: 93%, 10%;
+        background-position: -150% -30%, 90% 60%;
+    }
+}
+
+@media(max-width:464px) {
 
     .profile-image {
         top: 59%;
         height: 45vh;
         left: 45%;
     }
-
 }
 
+@media(max-width:437px) {
+
+    .right-content {
+        margin-top: 10%;
+        padding-right: 100px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .first {
+        font-size: 2.4rem;
+    }
+
+    span {
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width:384px) {
+
+    .right-content {
+        margin-top: 10%;
+        padding-right: 100px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .first {
+        font-size: 2.9rem;
+    }
+
+    span {
+        font-size: 1.9rem;
+    }
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 170%;
+        background-position: 90% -90%;
+    }
+
+    .right-content {
+        margin-top: 15%;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:367px) {
+
+    .right-content {
+        margin-top: 20%;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width:340px) {
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    .first {
+        font-size: 2.5rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+}
