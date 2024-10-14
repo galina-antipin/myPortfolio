@@ -211,6 +211,7 @@ span {
         background-image: url('./../../../assets/img/circle.png');
         background-size: 80%;
         background-position: -160% 89%;
+        border-bottom: 1px solid  #5988FF;
     }
 
     h1 {
@@ -304,6 +305,8 @@ span {
 }
 
 @media(max-width:600px) {
+
+  
     h1 {
         font-size: 3.9rem;
     }
@@ -314,7 +317,7 @@ span {
 
     .content-wrapper {
         margin-left: 0%;
-        margin-right: 0%;
+        margin-right: 0%; 
     }
 
     section {
@@ -365,7 +368,7 @@ span {
 @media(max-width:464px) {
 
     .profile-image {
-        top: 59%;
+        top: 58.2%;
         height: 45vh;
         left: 45%;
     }
