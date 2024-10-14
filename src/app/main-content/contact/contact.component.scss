@@ -9,7 +9,6 @@ section {
         85% 95%,
         20% 80%;
     background-repeat: no-repeat;
-    // background: linear-gradient(to bottom, #FFFFFF, #EAF0FF);
 
     h1 {
         font-family: 'Baloo 2';
@@ -42,7 +41,7 @@ section {
     img {
         height: 30px;
         width: 30px;
-        margin-top: 50%;
+        margin-top: 30%;
     }
 }
 
@@ -195,6 +194,15 @@ a {
         background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
         background-size: 15%, 6%;
         background-position:
-            70% 5%,
+            90% 1%,
+            85% 95%,
+}}
+
+@media(max-width:419px) {
+    section {
+        background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
+        background-size: 9%, 6%;
+        background-position:
+            90% 1%,
             85% 95%,
 }}
