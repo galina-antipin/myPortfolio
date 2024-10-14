@@ -11,4 +11,12 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class PrivacyPolicyComponent {
   translate = inject(TranslationService);
+
+  ngOnInit() {
+    this.scrollToTop();
+  }
+
+  private scrollToTop() {
+    window.scroll(0, 0); 
+  }
 }

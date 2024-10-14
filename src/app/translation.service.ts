@@ -14,4 +14,5 @@ export class TranslationService {
    public switchLanguage(language: string): void {
     this.translate.use(language);
    }
+
 }
