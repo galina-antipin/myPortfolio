@@ -21,7 +21,9 @@
                 </div>
             </div>
             <div class="project-content">
-                <img [src]="project.image" [alt]="project.id | translate">
+                <a [href]="project.liveLink" target="_blank">
+                    <img [src]="project.image" [alt]="project.id | translate">
+                </a>
             </div>
         </div>}
     </div>
