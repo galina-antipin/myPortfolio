@@ -71,7 +71,7 @@ section {
     overflow-x: auto;
     padding: 10px;
 
-    @media (max-width: 1000px) {
+@media (max-width: 1000px) {
         flex-wrap: nowrap;
     }
 }
@@ -93,5 +93,24 @@ section {
   
   .references::-webkit-scrollbar {
       display: none; 
+  }
+
+  @media (max-width:730px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 1.8rem !important;
+    }
+
+    h3 {
+        font-size: 1.3rem !important;
+    }
+
+    .content-wrapper {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
   }
 
