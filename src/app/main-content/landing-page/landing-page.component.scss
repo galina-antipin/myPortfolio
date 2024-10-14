@@ -63,11 +63,24 @@ span {
 .scroll-span {
     font-size: 1.4375rem;
     margin: 20px 0;
+    animation: pulse-animation 1.2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .scroll-down-line {
     width: 2px;
-    height: 800px;
+    height: 4000px;
     background-color: #5988FF;
 }
 
