@@ -10,6 +10,7 @@ section {
     background-position: -40% 80%;
     background-repeat: no-repeat;
     max-height: 1440px;
+    overflow: hidden;
 }
 
 h1 {
@@ -371,7 +372,6 @@ span {
     .right-content {
         margin-top: 100px;
     }
-
 
     .content-wrapper {
         height: 70vh;
