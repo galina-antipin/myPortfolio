@@ -342,7 +342,6 @@ span {
     }
 
     .content-wrapper {
-        height: 80vh;
         margin: 0;
     }
 }
@@ -372,9 +371,10 @@ span {
     }
 
     .right-content {
-        margin-top: 100px;}
+        margin-top: 100px;
+    }
 
-        
+
     .content-wrapper {
         height: 70vh;
         margin: 0;
@@ -401,8 +401,9 @@ span {
     }
 
     .right-content {
-        margin-top: 100px;}
-   
+        margin-top: 100px;
+    }
+
     h1 {
         font-size: 3.2rem;
     }
@@ -419,13 +420,41 @@ span {
 @media(max-width:340px) {
 
     .left-content {
-             width: 95%;
+        width: 95%;
 
         img {
-            height: 40vh;  
+            height: 40vh;
             width: 100%;
             object-fit: cover;
-     
         }
     }
+}
+
+@media(max-height:667px) {
+    .left-content {
+        img {
+            display: none;
+        }
+    }
+}
+
+@media(max-height:375px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .headline-top {
+        font-size: 4rem;
+    }
+
+    span {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1024px) and (orientation: portrait) {
+    .left-content{
+        img {
+        height: 55vh;
+    }}
 }
