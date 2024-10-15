@@ -40,7 +40,7 @@
                @if(contactForm.submitted && !contactData.acceptPolicy){<span >{{ 'CONTACT.ACCEPT_PRIVACY' | translate
                     }}</span>}
 
-                <button class="send-button" type="submit" [disabled]="!contactForm.valid">
+                 <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}">
                     {{ buttonText }}
                 </button>
                       <a href="#header"> <img src="./../../../assets/img/arrow-top-icon.png" alt="Arrow top">

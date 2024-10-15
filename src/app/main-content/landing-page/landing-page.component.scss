@@ -6,14 +6,9 @@ section {
     display: flex;
     justify-content: center;
     background-image: url('./../../../assets/img/circle.png');
-    background-size: 60%;
-    background-position: -40% 20%;
+    background-size: 1100px;
+    background-position: -40% 80%;
     background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-.d-none {
-    display: none;
 }
 
 h1 {
@@ -22,7 +17,7 @@ h1 {
     font-size: 8rem;
 }
 
-.first {
+.headline-top {
     font-size: 8.625rem;
 }
 
@@ -32,8 +27,9 @@ span {
 }
 
 .content-wrapper {
-    margin-left: 8%;
+    margin-left: 0%;
     margin-right: 8%;
+    margin-top: 3%;
     max-width: 1920px;
     display: flex;
     justify-content: space-between;
@@ -41,8 +37,15 @@ span {
 }
 
 .left-content {
-
     width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    img {
+        height: 90vh;
+    }
 }
 
 .frontend-wrapper {
@@ -70,9 +73,11 @@ span {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
@@ -102,185 +107,138 @@ span {
     }
 }
 
-.profile-image {
-    position: absolute;
-    top: 55%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    height: 90vh;
-    z-index: 1;
-}
 
-@media(max-width:1650px) {
+@media(max-width:1700px) {
     h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
-    .first {
-        font-size: 8rem;
+    .headline-top {
+        font-size: 7rem;
     }
 
     span {
         font-size: 3.8rem;
     }
+}
 
-    .circle {
-        opacity: 0.2;
+@media(max-width:1617px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 1000px;
+        background-position: -40% 80%;
     }
 }
 
-@media(max-width:1290px) {
+@media(max-width:1507px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 900px;
+        background-position: -40% 80%;
+    }
+}
+
+@media(max-width:1394px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 850px;
+        background-position: -40% 80%;
+    }
+}
+
+@media(max-width:1336px) {
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
-    .first {
-        font-size: 5rem;
+    .headline-top {
+        font-size: 6rem;
     }
 
     span {
         font-size: 3rem;
     }
-
-
-    .profile-image {
-        top: 65%;
-        height: 70vh;
-    }
 }
 
-@media(max-width:1045px) {
+@media(max-width:1263px) {
 
     section {
         background-image: url('./../../../assets/img/circle.png');
-        background-size: 80%;
-        background-position: -160% 99%;
+        background-size: 800px;
+        background-position: -40% 80%;
     }
 
-    h1 {
-        font-size: 6rem;
-    }
+    .left-content {
 
-    .first {
-        font-size: 6rem;
-    }
-
-    span {
-        font-size: 3.5rem;
-    }
-
-    .profile-image {
-        top: 70%;
-        height: 60vh;
-        left: 25%;
-    }
-
-    .content-wrapper {
-        margin-left: 8%;
-        margin-right: 8%;
-        max-width: 1920px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .right-content {
-        margin-top: 5%;
-    }
-
-    .scroll-down {
-        position: absolute;
-        right: -10%;
-        top: 78%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .scroll-down span {
-        writing-mode: vertical-rl;
-        transform: rotate(360deg);
-        color: #5988FF;
-        font-size: 1.5rem;
+        img {
+            height: 80vh;
+        }
     }
 }
 
-@media(max-width:899px) {
+@media(max-width:1203px) {
 
     section {
         background-image: url('./../../../assets/img/circle.png');
-        background-size: 80%;
-        background-position: -160% 89%;
-        border-bottom: 1px solid  #5988FF;
+        background-size: 750px;
+        background-position: -40% 80%;
     }
 
     h1 {
-        font-size: 6rem;
+        font-size: 4.5rem;
     }
 
-    .first {
-        font-size: 5rem;
-    }
-
-    span {
-        font-size: 3rem;
-    }
-
-    .scroll-span,
-    .scroll-down-line {
-        display: none;
-    }
-
-}
-
-@media(max-width:704px) {
-
-    section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 120%;
-        background-position: 180% -250%;
-    }
-
-    h1 {
-        font-size: 5rem;
-        color: #FFFFFF;
-    }
-
-    .first {
-        font-size: 4rem;
-        color: #FFFFFF;
+    .headline-top {
+        font-size: 5.4rem;
     }
 
     span {
         font-size: 2.5rem;
-        color: #FFFFFF;
     }
-
-    .profile-image {
-        top: 65%;
-        height: 70vh;
-        left: 45%;
-    }
-
-    .right-content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-        padding-right: 150px;
-    }
-
-    .frontend-wrapper {
-        align-items: flex-start;
-    }
-
 }
 
-@media (max-width:670px) {
+@media(max-width:1112px) {
+
     section {
         background-image: url('./../../../assets/img/circle.png');
-        background-size: 120%;
-        background-position: 180% -300%;
+        background-size: 700px;
+        background-position: -40% 80%;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .headline-top {
+        font-size: 5.4rem;
+    }
+
+    span {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:1000px) {
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 650px;
+        background-position: -40% 80%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .headline-top {
+        font-size: 5rem;
+    }
+
+    span {
+        font-size: 2rem;
     }
 
     .icon-wrapper {
@@ -288,61 +246,169 @@ span {
     }
 }
 
-@media (max-width:625px) {
+@media(max-width:950px) {
+
     section {
         background-image: url('./../../../assets/img/circle.png');
-        background-size: 90%;
-        background-position: -150% -20%;
-    }
-
-    .left-content {
-        width: 0;
-    }
-
-    span {
-        font-size: 1.9rem;
-    }
-}
-
-@media(max-width:600px) {
-
-  
-    h1 {
-        font-size: 3.9rem;
-    }
-
-    .first {
-        font-size: 2.9rem;
+        background-size: 900px;
+        background-position: -150px -200px;
+        color: white;
     }
 
     .content-wrapper {
-        margin-left: 0%;
-        margin-right: 0%; 
+        display: flex;
+        flex-direction: column-reverse;
     }
 
-    section {
-        height: calc(70vh);
+    .scroll-down-line,
+    .scroll-span {
+        display: none;
     }
 
-    .profile-image {
-        top: 55.5%;
-        height: 50vh;
-        left: 45%;
+    h1 {
+        font-size: 7rem;
     }
 
-    .right-content {
-        margin-top: 12%;
-        padding-right: 140px;
+    .headline-top {
+        font-size: 6rem;
+    }
+
+    span {
+        font-size: 2.8rem;
+    }
+
+    .icon-wrapper {
+        display: none;
+    }
+
+    .left-content {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+            height: 55vh;
+        }
     }
 }
 
-@media(max-width:520px) {
+@media(max-width:700px) {
+
     h1 {
+        font-size: 6.5rem;
+    }
+
+    .headline-top {
+        font-size: 5.5rem;
+    }
+
+    span {
+        font-size: 2.8rem;
+    }
+
+    .content-wrapper {
+        margin-left: 3%;
+    }
+}
+
+@media(max-width:618px) {
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .headline-top {
+        font-size: 4.5rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    .left-content {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .right-content {
+        margin-top: 160px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 2%;
+    }
+
+    .frontend-wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .content-wrapper {
+        height: 80vh;
+        margin: 0;
+    }
+}
+
+@media(max-width:480px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .headline-top {
         font-size: 3.5rem;
     }
 
-    .first {
-        font-size: 2.8rem;
+    span {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:410px) {
+
+    .left-content {
+
+        img {
+            height: 45vh !important;
+        }
+    }
+
+    .right-content {
+        margin-top: 100px;}
+
+        
+    .content-wrapper {
+        height: 70vh;
+        margin: 0;
+    }
+
+    section {
+        background-image: url('./../../../assets/img/circle.png');
+        background-size: 990px;
+        background-position: -600px -400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 70vh;
+    }
+}
+
+@media(max-width:365px) {
+
+    .left-content {
+
+        img {
+            height: 42vh;
+        }
+    }
+
+    .right-content {
+        margin-top: 100px;}
+   
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    .headline-top {
+        font-size: 3.2rem;
     }
 
     span {
@@ -350,100 +416,16 @@ span {
     }
 }
 
-
-@media(max-width:481px) {
-
-    .right-content {
-        margin-top: 10%;
-        padding-right: 100px;
-    }
-
-    section {
-        background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
-        background-size: 93%, 10%;
-        background-position: -150% -30%, 90% 60%;
-    }
-}
-
-@media(max-width:464px) {
-
-    .profile-image {
-        top: 58.2%;
-        height: 45vh;
-        left: 45%;
-    }
-}
-
-@media(max-width:437px) {
-
-    .right-content {
-        margin-top: 10%;
-        padding-right: 100px;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    .first {
-        font-size: 2.4rem;
-    }
-
-    span {
-        font-size: 1.6rem;
-    }
-}
-
-@media(max-width:384px) {
-
-    .right-content {
-        margin-top: 10%;
-        padding-right: 100px;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    .first {
-        font-size: 2.9rem;
-    }
-
-    span {
-        font-size: 1.9rem;
-    }
-
-    section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 170%;
-        background-position: 90% -90%;
-    }
-
-    .right-content {
-        margin-top: 15%;
-        padding-right: 20px;
-    }
-}
-
-@media(max-width:367px) {
-
-    .right-content {
-        margin-top: 20%;
-        padding-right: 5px;
-    }
-}
-
 @media(max-width:340px) {
 
-    h1 {
-        font-size: 3.2rem;
-    }
+    .left-content {
+             width: 95%;
 
-    .first {
-        font-size: 2.5rem;
-    }
-
-    span {
-        font-size: 1.5rem;
+        img {
+            height: 40vh;  
+            width: 100%;
+            object-fit: cover;
+     
+        }
     }
 }
