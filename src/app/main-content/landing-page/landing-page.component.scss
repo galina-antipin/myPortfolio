@@ -41,13 +41,12 @@ span {
 
 .left-content {
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     max-height: 1440px;
     overflow: hidden;
-    
+
 
     img {
         height: 90vh;
@@ -114,9 +113,10 @@ span {
     }
 }
 
-@media(min-width:2000px){
+@media(min-width:2000px) {
     section {
-        background-size: 60%;}
+        background-size: 60%;
+    }
 }
 
 @media(max-width:1700px) {
@@ -326,11 +326,6 @@ span {
         font-size: 2rem;
     }
 
-    .left-content {
-        height: 50vh;
-        width: 100%;
-    }
-
     .right-content {
         margin-top: 160px;
         display: flex;
@@ -363,43 +358,32 @@ span {
 }
 
 @media(max-width:410px) {
-    .left-content {
-
-        img {
-            height: 45vh !important;
-        }
-    }
-
-    .right-content {
-        margin-top: 100px;
-    }
-
-    .content-wrapper {
-        height: 70vh;
-        margin: 0;
-    }
-
     section {
         background-image: url('./../../../assets/img/circle.png');
-        background-size: 990px;
+        background-size: 1100px;
         background-position: -600px -400px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 70vh;
+    }
+
+    .right-content {
+        margin-top: 150px;
+    }
+
+    .content-wrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
-@media(max-width:365px) {
+@media(max-width:399px) {
     .left-content {
 
         img {
             height: 42vh;
         }
-    }
-
-    .right-content {
-        margin-top: 100px;
     }
 
     h1 {
@@ -450,8 +434,9 @@ span {
 }
 
 @media only screen and (min-width: 834px) and (max-width: 1024px) and (orientation: portrait) {
-    .left-content{
+    .left-content {
         img {
-        height: 55vh;
-    }}
+            height: 55vh;
+        }
+    }
 }
