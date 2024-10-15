@@ -37,3 +37,10 @@ span {
         align-items: center;
     }
 }
+
+@media(max-height:430px){
+    section {
+        height:100vh;
+    }
+
+}
