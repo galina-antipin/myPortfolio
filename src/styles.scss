@@ -19,20 +19,14 @@
     background-color: white;
     cursor: pointer;
     font-size: 23px;
-    transition: background-image 0.4s ease, color 0.4s ease;
+    transition: background-image color 0.4s ease;
   
     &:hover {
-      background-image: linear-gradient(to right, #5988FF, #0043F0);
+      background-image: linear-gradient(to right, #0043F0, #5988FF);
       color: white;
-      transform: scale(1.05);
+      border-color: none;
     }
   }
-
-  #app {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
   
 /* baloo-2-regular - latin */
 @font-face {
