@@ -259,6 +259,7 @@ span {
     .content-wrapper {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: flex-start;
     }
 
     .scroll-down-line,
