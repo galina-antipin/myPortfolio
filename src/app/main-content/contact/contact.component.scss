@@ -143,6 +143,15 @@ a {
     }
 }
 
+.arrow-top-icon {
+    transition: transform 0.2s ease;
+
+    &:hover {
+        content: url('./../../../assets/img/arrow-top-icon-hover.png');
+        transform: scale(1.1);
+    }
+}
+
 @media (max-width:1605px) {
     button {
         margin-top: 20px !important;
@@ -197,7 +206,8 @@ a {
         background-position:
             90% 1%,
             85% 95%,
-}}
+    }
+}
 
 @media(max-width:419px) {
     section {
@@ -206,4 +216,5 @@ a {
         background-position:
             90% 1%,
             85% 95%,
-}}
+    }
+}
