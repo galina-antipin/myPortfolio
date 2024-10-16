@@ -29,7 +29,6 @@
                     placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}" required minlength="5"
                     [ngClass]="{'invalid': !message.valid && message.touched}"></textarea>
 
-
                 <div class="checkbox-wrapper">
                     <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel"
                         required />
