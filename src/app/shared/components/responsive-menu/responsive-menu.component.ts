@@ -10,13 +10,16 @@ import { CommonModule } from '@angular/common';
   templateUrl: './responsive-menu.component.html',
   styleUrl: './responsive-menu.component.scss'
 })
-export class ResponsiveMenuComponent{
+export class ResponsiveMenuComponent {
 
   translate = inject(TranslationService);
 
-  isOpen:boolean = true;
+  isOpen: boolean = true;
   menuIsOpen = true;
 
   closeMenu() {
-    this.menuIsOpen = false; 
-}}
+    this.menuIsOpen = false;
+  }
+}
+
+

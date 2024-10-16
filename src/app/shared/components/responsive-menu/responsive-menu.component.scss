@@ -10,7 +10,6 @@ section {
     align-items: center;
     z-index: 1000;
     transform: translateX(100%);
-    transition: transform 0.4s ease;
 
     &.open {
         animation: slide-in 0.4s forwards;
