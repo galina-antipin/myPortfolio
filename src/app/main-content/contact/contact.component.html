@@ -45,11 +45,15 @@
                 }
                 <br><br>
 
-                <button class="send-button" type="submit"
-                    [ngClass]="{'active': contactForm.valid && contactData.acceptPolicy}"
-                    [ngStyle]="{'background-color': contactForm.valid && contactData.acceptPolicy ? 'initial' : 'lightgray'}">
-                    {{ buttonText }}
-                </button> <br><br><br><br><br>
+                <button class="send-button"
+                type="submit"
+                [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}"
+                [ngStyle]="{
+                    'background-color': contactForm.valid && contactData.acceptPolicy ? 'white' : 'lightgray'
+                }"
+                [disabled]="!contactForm.valid || !contactData.acceptPolicy">
+                {{ buttonText }}
+            </button> <br><br><br><br><br>
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
                         alt="Arrow top">
                 </a>
