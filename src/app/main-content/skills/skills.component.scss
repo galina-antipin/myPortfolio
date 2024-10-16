@@ -12,6 +12,8 @@ section {
     flex-direction: column;
     align-items: center;
     max-width: 1920px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h1 {
@@ -27,24 +29,27 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 3%;
-    transition: transform 0.3s;
+    width: 120px;
+    margin-right: 3%;
 
     img {
-        width: 70px;
         margin-bottom: 10px;
+        transition: transform 0.3s;
     }
 
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         font-weight: bold;
     }
-
-    span {
-        color: white;
-        font-family: 'Montserrat';
-    }
 }
+
+span {
+    color: white;
+    font-family: 'Montserrat';
+}
+
 
 .icons-wrapper {
     display: flex;
@@ -52,29 +57,40 @@ h1 {
     justify-content: center;
 }
 
-@media (max-width:730px){
+@media (max-width:1482px) {
+    .content-wrapper {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media (max-width:883px) {
+    .content-wrapper {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width:730px) {
     img {
         width: 50px !important;
     }
 }
 
-@media (max-width:580px){
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    img {
-        width: 40px !important;
+@media (max-width:580px) {
+    .img-wrapper {
+        width: 100px;
     }
 }
 
-@media (max-width:389px){
-    img {
-        width: 30px !important;
+@media (max-width:368px) {
+    .img-wrapper {
+        width: 80px;
     }
 
-    span {
-        font-size: 0.7rem;
+    .icons-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
