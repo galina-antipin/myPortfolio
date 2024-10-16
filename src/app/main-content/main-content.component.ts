@@ -5,7 +5,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import AOS from 'aos';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-main-content',

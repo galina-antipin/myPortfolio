@@ -2,7 +2,7 @@ import { CommonModule} from '@angular/common';
 import { Component, inject, OnInit  } from '@angular/core';
 import { TranslationService } from '../../translation.service';
 import { TranslateModule } from '@ngx-translate/core';
-import AOS from 'aos';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-my-work',
