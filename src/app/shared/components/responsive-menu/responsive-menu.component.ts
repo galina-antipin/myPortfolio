@@ -15,9 +15,8 @@ export class ResponsiveMenuComponent{
   translate = inject(TranslationService);
 
   isOpen:boolean = true;
+  menuIsOpen = true;
 
   closeMenu() {
-    this.isOpen = !this.isOpen; 
-  }
-}
-
+    this.menuIsOpen = false; 
+}}
