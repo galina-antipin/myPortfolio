@@ -5,8 +5,8 @@ section {
     color: #5988FF;
     display: flex;
     justify-content: center;
-    background-image: url('./../../../assets/img/circle.png');
-    background-size: 1100px;
+    background: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+    background-size: 1100px, 100%;
     background-position: -40% 80%;
     background-repeat: no-repeat;
     max-height: 1440px;
