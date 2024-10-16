@@ -40,7 +40,9 @@
                @if(contactForm.submitted && !contactData.acceptPolicy){<span >{{ 'CONTACT.ACCEPT_PRIVACY' | translate
                     }}</span>}
 
-                 <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}">
+                 <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}" [disabled]="!contactForm.valid" 
+                 [ngStyle]="{  'background-color': contactForm.valid ? 'initial' : 'lightgray',
+                 'cursor': contactForm.valid ? 'pointer' : 'not-allowed'}">
                     {{ buttonText }}
                 </button>
                       <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png" alt="Arrow top">
