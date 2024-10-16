@@ -2,8 +2,8 @@ section {
     height: calc(100vh - 300px);
     width: 100%;
     font-family: 'Montserrat';
-    background-image: url('/../../assets/img/circle.png'), url('/../../assets/img/circle.png');
-    background-size:  15%, 5%;
+    background: url('/../../assets/img/circle.png'), url('/../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+    background-size:  15%, 5%, 100%;
     background-repeat: no-repeat;
     background-position:  bottom 15% right 3%, 20% 90%;
     display: flex;
