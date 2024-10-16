@@ -1,7 +1,8 @@
 import { CommonModule} from '@angular/common';
-import { Component, inject  } from '@angular/core';
+import { Component, inject, OnInit  } from '@angular/core';
 import { TranslationService } from '../../translation.service';
 import { TranslateModule } from '@ngx-translate/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-my-work',
@@ -11,7 +12,14 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './my-work.component.scss'
 })
 
-export class MyWorkComponent {
+export class MyWorkComponent implements OnInit {
+    ngOnInit(): void {
+      AOS.init({
+        duration: 1200,
+        easing: 'ease-in-out',
+      });
+    }
+
   projects = [
     {
       id: 'JOIN', 

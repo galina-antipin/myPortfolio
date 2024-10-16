@@ -5,7 +5,7 @@
             <h2>{{ 'WORK.SUBTITLE' | translate }}</h2>
         </div>
         @for (project of projects; track $index) {
-        <div class="portfolio-wrapper" [ngClass]="{'reverse': ($index === 0 || $index === 2), 'middle-container': $index === 1}">
+        <div class="portfolio-wrapper" [ngClass]="{'reverse': ($index === 0 || $index === 2), 'middle-container': $index === 1}" data-aos="fade-up">
             <div class="description-content">
                 <p>{{ 'WORK.PROJECT.TITLE.' + project.id | translate }}</p>
                 <h3>{{ project.technologies }}</h3>

@@ -1,6 +1,7 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { TranslationService } from '../../translation.service';
 import { TranslateModule } from '@ngx-translate/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-skills',
@@ -9,7 +10,15 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
 })
-export class SkillsComponent {
+
+export class SkillsComponent implements OnInit {
+  ngOnInit(): void {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-out',
+    });
+  }
+
   skills = [
     { name: 'Angular', icon: './../../../assets/img/angular-icon.png' },
     { name: 'TypeScript', icon: './../../../assets/img/typescript-icon.png' },
