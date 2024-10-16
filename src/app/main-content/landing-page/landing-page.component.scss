@@ -355,31 +355,10 @@ span {
 }
 
 @media(max-width:410px) {
-    section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 1100px;
-        background-position: -600px -400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
-    .right-content {
-        margin-top: 150px;
-    }
-
-    .content-wrapper {
-        height: 100vh;
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-@media(max-width:399px) {
     .left-content {
 
         img {
-            height: 42vh;
+            height: 45vh;
         }
     }
 
