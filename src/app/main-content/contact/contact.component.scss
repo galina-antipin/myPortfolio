@@ -62,6 +62,8 @@ span {
     font-family: 'Montserrat';
     color: red;
     font-size: 1rem;
+    min-height: 20px; 
+    margin-top: -20px;
 }
 
 p {
@@ -92,7 +94,7 @@ textarea {
     border: 1px solid #5988FF;
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: black;
     outline: none;
 

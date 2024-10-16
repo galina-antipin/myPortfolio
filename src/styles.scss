@@ -27,6 +27,29 @@
       border-color: none;
     }
   }
+
+  .send-button {
+    white-space: nowrap;
+    margin-top: 10px;
+    color: #5988FF;
+    padding: 10px 20px;
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: #5988FF;
+    background-color: white;
+    cursor: pointer;
+    font-size: 23px;
+    transition: background-image color 0.4s ease;
+
+    &:hover {
+        // Der Hover-Effekt tritt nur auf, wenn der Button nicht deaktiviert ist
+        &:not(:disabled) {
+            background-image: linear-gradient(to right, #0043F0, #5988FF);
+            color: white;
+            border-color: none;
+        }
+    }
+}
   
 /* baloo-2-regular - latin */
 @font-face {
