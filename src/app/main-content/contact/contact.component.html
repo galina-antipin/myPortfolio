@@ -29,7 +29,7 @@
                  @if(!message.valid && message.touched){<span>{{ 'CONTACT.MESSAGE_EMPTY' | translate }}</span>}
 
                 <div class="checkbox-wrapper">
-                    <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" required />
+                    <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel" required />
                     <label for="privacy">
                         {{ 'CONTACT.PRIVACY_READ' | translate }}
                         <a routerLink="/privacy-policy">{{ 'CONTACT.PRIVACY_POLICY' | translate }}</a>
@@ -37,8 +37,9 @@
                     </label>
                 </div>
 
-               @if(contactForm.submitted && !contactData.acceptPolicy){<span >{{ 'CONTACT.ACCEPT_PRIVACY' | translate
-                    }}</span>}
+                @if(privacy.touched && !contactData.acceptPolicy) { 
+                    <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
+                }
 
                  <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}" [disabled]="!contactForm.valid" 
                  [ngStyle]="{  'background-color': contactForm.valid ? 'initial' : 'lightgray',
