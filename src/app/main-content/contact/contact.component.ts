@@ -40,28 +40,31 @@ export class ContactComponent{
 
    buttonText = 'Send message :)'
 
-  onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid) {
+   onSubmit(ngForm: NgForm) {
+    if (ngForm.submitted && !ngForm.valid) {
+      ngForm.controls['name'].markAsTouched();
+      ngForm.controls['email'].markAsTouched();
+      ngForm.controls['message'].markAsTouched();
+      ngForm.controls['privacy'].markAsTouched();
+      return;
+    }
+  
+    if (ngForm.submitted && ngForm.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-
             ngForm.resetForm();
             this.buttonText = 'Message was sent!';
-
+  
             setTimeout(() => {
               this.buttonText = 'Send message :)';
-          }, 3000);
-
+            }, 3000);
           },
           error: (error) => {
-            console.error(error);
+            console.error(error); 
             this.buttonText = 'Error sending email';
           },
-          complete: () => console.info('send post complete'),
+          complete: () => console.info('send post complete'), 
         });
-    } else if (ngForm.submitted && ngForm.form.valid) {
-
-      ngForm.resetForm();
     }
   }}

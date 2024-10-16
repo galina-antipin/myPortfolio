@@ -11,25 +11,28 @@
                 <br>
                 <h3>{{ 'CONTACT.NEED_DEV' | translate }} <b>{{ 'CONTACT.CONTACT_ME' | translate }}</b></h3>
             </div>
+
             <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+                @if(!name.valid && name.touched){<span>{{ 'CONTACT.NAME_REQUIRED' | translate }}</span>}
                 <input #name="ngModel" [(ngModel)]="contactData.name" name="name" type="text" id="name"
                     placeholder="{{ 'CONTACT.NAME_PLACEHOLDER' | translate }}" required
                     [ngClass]="{'invalid': !name.valid && name.touched}">
-                 @if(!name.valid && name.touched){<span>{{ 'CONTACT.NAME_REQUIRED' | translate }}</span>}
 
+                @if(!email.valid && email.touched){<span>{{ 'CONTACT.EMAIL_REQUIRED' | translate }}</span>}
                 <input #email="ngModel" [(ngModel)]="contactData.email" name="email" type="email"
                     placeholder="{{ 'CONTACT.EMAIL_PLACEHOLDER' | translate }}" required
                     pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
                     [ngClass]="{'invalid': !email.valid && email.touched}">
-                 @if(!email.valid && email.touched){<span>{{ 'CONTACT.EMAIL_REQUIRED' | translate }}</span>}
 
+                @if(!message.valid && message.touched){<span>{{ 'CONTACT.MESSAGE_EMPTY' | translate }}</span>}
                 <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message" id="message"
                     placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}" required minlength="5"
                     [ngClass]="{'invalid': !message.valid && message.touched}"></textarea>
-                 @if(!message.valid && message.touched){<span>{{ 'CONTACT.MESSAGE_EMPTY' | translate }}</span>}
+
 
                 <div class="checkbox-wrapper">
-                    <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel" required />
+                    <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel"
+                        required />
                     <label for="privacy">
                         {{ 'CONTACT.PRIVACY_READ' | translate }}
                         <a routerLink="/privacy-policy">{{ 'CONTACT.PRIVACY_POLICY' | translate }}</a>
@@ -37,16 +40,18 @@
                     </label>
                 </div>
 
-                @if(privacy.touched && !contactData.acceptPolicy) { 
-                    <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
+                @if(privacy.touched && !contactData.acceptPolicy) {
+                <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
                 }
+                <br><br>
 
-                 <button class="send-button" type="submit" [ngClass]="{'active': !message.valid && message.touched}" [disabled]="!contactForm.valid" 
-                 [ngStyle]="{  'background-color': contactForm.valid ? 'initial' : 'lightgray',
-                 'cursor': contactForm.valid ? 'pointer' : 'not-allowed'}">
+                <button class="send-button" type="submit"
+                    [ngClass]="{'active': contactForm.valid && contactData.acceptPolicy}"
+                    [ngStyle]="{'background-color': contactForm.valid && contactData.acceptPolicy ? 'initial' : 'lightgray'}">
                     {{ buttonText }}
-                </button>
-                      <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png" alt="Arrow top">
+                </button> <br><br><br><br><br>
+                <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
+                        alt="Arrow top">
                 </a>
             </form>
         </div>
