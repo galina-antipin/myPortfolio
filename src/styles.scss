@@ -19,10 +19,9 @@
     background-color: white;
     cursor: pointer;
     font-size: 23px;
-    transition: background-image color 0.4s ease;
   
     &:hover {
-      background-image: linear-gradient(to right, #0043F0, #5988FF);
+      background: linear-gradient(to right, #0043F0, #5988FF);
       color: white;
       border-color: none;
     }
@@ -39,14 +38,24 @@
     background-color: white;
     cursor: pointer;
     font-size: 23px;
-    transition: background-image color 0.4s ease;
 
     &:hover {
-        &:not(:disabled) {
-            background-image: linear-gradient(to right, #0043F0, #5988FF);
+            background-color: #5988FF;
             color: white;
             border-color: none;
         }
+    }
+
+
+.inactive {
+    color: grey !important;
+    background-color: lightgrey;
+    border-color: lightgrey;
+
+    &:hover {
+        color: grey; 
+        background-color: lightgrey;
+        cursor: not-allowed;
     }
 }
   

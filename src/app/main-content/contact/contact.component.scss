@@ -45,12 +45,6 @@ section {
     }
 }
 
-.inactive {
-    color: unset !important;
-    background-color: unset !important;
-}
-
-
 .contact-wrapper {
     max-width: 1920px;
     width: 100%;
@@ -148,7 +142,6 @@ a {
 
     &:hover {
         text-decoration: underline;
-        font-weight: 400;
     }
 }
 
@@ -160,7 +153,6 @@ a {
         transform: scale(1.1);
     }
 }
-
 
 @media (max-width:1605px) {
     button {
