@@ -136,6 +136,11 @@ label {
     font-family: 'Montserrat';
 }
 
+.checkbox-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
 a {
     color: #5988FF;
     text-decoration: none;
