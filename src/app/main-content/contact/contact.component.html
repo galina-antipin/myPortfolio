@@ -48,13 +48,13 @@
          
                 <div @if(feedbackMessage) class="feedback-message">
                     {{ feedbackMessage }}
-                </div> 
+                </div>
 
                 <button class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                     {{ buttonText }}
                 </button> 
-
+ 
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
                         alt="Arrow top">
                 </a>
