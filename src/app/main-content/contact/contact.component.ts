@@ -49,11 +49,12 @@ export class ContactComponent{
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-            this.feedbackMessage = `Vielen Dank, ${this.contactData.name}! Ihre Nachricht wurde gesendet.`;
+            this.feedbackMessage = `Vielen Dank, ${this.contactData.name}! Deine Nachricht wurde gesendet.`;
             ngForm.resetForm();
             this.submitted = false;
   
             setTimeout(() => {
+              this.feedbackMessage = '';
             }, 3000);
           },
           error: (error) => {
