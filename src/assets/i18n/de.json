@@ -72,7 +72,8 @@
         "ACCEPT_PRIVACY": "Bitte akzeptiere die Datenschutzrichtlinien.",
         "FEEDBACK_SUCCESS_THANK_YOU": "Vielen Dank,",
         "FEEDBACK_SUCCESS_MESSAGE": "Deine Nachricht wurde gesendet.",
-        "FEEDBACK_ERROR": "Es gab ein Problem mit dem Senden deiner Nachricht."
+        "FEEDBACK_ERROR": "Es gab ein Problem mit dem Senden deiner Nachricht.",
+        "BUTTON_TEXT": "Sag hallo :)"
     },
     "FOOTER": {
         "IMPRINT": "Impressum"

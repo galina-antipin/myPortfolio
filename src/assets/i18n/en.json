@@ -72,7 +72,8 @@
         "ACCEPT_PRIVACY": "Please accept the privacy policy.",
         "FEEDBACK_SUCCESS_THANK_YOU": "Thank you,",
         "FEEDBACK_SUCCESS_MESSAGE": "Your message has been sent.",
-        "FEEDBACK_ERROR": "There was a problem sending your message."
+        "FEEDBACK_ERROR": "There was a problem sending your message.",
+        "BUTTON_TEXT": "Say hello :)"
     },
     "FOOTER": {
         "IMPRINT": "Imprint"

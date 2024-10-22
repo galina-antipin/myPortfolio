@@ -30,7 +30,6 @@ export class ContactComponent {
 
   submitted: boolean = false;
   feedbackMessage: boolean|string = false;
-  buttonText: string = 'Say hello!';
 
   post = {
     endPoint: 'https://galina-antipin.de/sendMail.php',

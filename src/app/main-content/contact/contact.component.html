@@ -49,7 +49,7 @@
 
                 <button class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
-                    {{ buttonText }}
+                    {{ 'CONTACT.BUTTON_TEXT' | translate }}
                 </button>
 
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
