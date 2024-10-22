@@ -55,11 +55,13 @@
                         alt="Arrow top">
                 </a>
             </form>
-            
+
             @if(feedbackMessage) {
-                <div class="feedback-message" >
-                    {{ 'CONTACT.FEEDBACK_SUCCESS_THANK_YOU' | translate}}  {{ contactData.name }}! {{ 'CONTACT.FEEDBACK_SUCCESS_MESSAGE' | translate }}
-                </div>}
+            <div class="feedback-message">
+                <span> {{ 'CONTACT.FEEDBACK_SUCCESS_THANK_YOU' | translate}} {{ contactData.name }}! {{
+                    'CONTACT.FEEDBACK_SUCCESS_MESSAGE' | translate }}
+                </span>
+            </div>}
         </div>
     </div>
 </section>
