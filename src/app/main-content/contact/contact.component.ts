@@ -14,7 +14,7 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent{
-  submitted = false;
+
   constructor() { }
 
   translate = inject(TranslationService);
@@ -28,6 +28,10 @@ export class ContactComponent{
     acceptPolicy: false,
   }
 
+  submitted = false;
+  feedbackMessage: string = '';
+  buttonText: string = 'Say hello!'
+
   post = {
     endPoint: 'https://galina-antipin.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
@@ -39,25 +43,21 @@ export class ContactComponent{
     },
   };
 
-   buttonText = 'Send message :)'
-
    onSubmit(ngForm: NgForm) {
     this.submitted = true;
     if (ngForm.submitted && ngForm.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
+            this.feedbackMessage = `Vielen Dank, ${this.contactData.name}! Ihre Nachricht wurde gesendet.`;
             ngForm.resetForm();
             this.submitted = false;
-            this.buttonText = 'Message was sent!';
   
             setTimeout(() => {
-              this.buttonText = 'Send message :)';
             }, 3000);
           },
           error: (error) => {
             console.error(error); 
-            this.buttonText = 'Error sending email';
           },
           complete: () => console.info('send post complete'), 
         });

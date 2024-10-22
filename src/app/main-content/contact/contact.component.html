@@ -46,11 +46,15 @@
                 <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
                 }
                 <br><br>
+                <div @if(feedbackMessage) class="feedback-message">
+                    {{ feedbackMessage }}
+                </div>
 
                 <button class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                     {{ buttonText }}
                 </button> <br><br><br><br><br>
+
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
                         alt="Arrow top">
                 </a>
