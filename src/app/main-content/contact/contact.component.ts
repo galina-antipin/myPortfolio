@@ -14,6 +14,7 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent{
+  submitted = false;
   constructor() { }
 
   translate = inject(TranslationService);
@@ -41,19 +42,13 @@ export class ContactComponent{
    buttonText = 'Send message :)'
 
    onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && !ngForm.valid) {
-      ngForm.controls['name'].markAsTouched();
-      ngForm.controls['email'].markAsTouched();
-      ngForm.controls['message'].markAsTouched();
-      ngForm.controls['privacy'].markAsTouched();
-      return;
-    }
-  
+    this.submitted = true;
     if (ngForm.submitted && ngForm.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
             ngForm.resetForm();
+            this.submitted = false;
             this.buttonText = 'Message was sent!';
   
             setTimeout(() => {

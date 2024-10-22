@@ -13,25 +13,26 @@
             </div>
 
             <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
-                @if(!name.valid && name.touched){<span>{{ 'CONTACT.NAME_REQUIRED' | translate }}</span>}
+                @if(submitted && (name.invalid || (name.touched && !name.valid))){<span>{{ 'CONTACT.NAME_REQUIRED' | translate }}</span>}
                 <input #name="ngModel" [(ngModel)]="contactData.name" name="name" type="text" id="name"
                     placeholder="{{ 'CONTACT.NAME_PLACEHOLDER' | translate }}" required
-                    [ngClass]="{'invalid': !name.valid && name.touched}">
+                    [ngClass]="{'invalid':(!name.valid && (name.touched || submitted))}">
 
-                @if(!email.valid && email.touched){<span>{{ 'CONTACT.EMAIL_REQUIRED' | translate }}</span>}
+                @if(submitted && (email.invalid || (email.touched && !email.valid))){<span>{{ 'CONTACT.EMAIL_REQUIRED' | translate }}</span>}
                 <input #email="ngModel" [(ngModel)]="contactData.email" name="email" type="email"
                     placeholder="{{ 'CONTACT.EMAIL_PLACEHOLDER' | translate }}" required
                     pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
-                    [ngClass]="{'invalid': !email.valid && email.touched}">
+                    [ngClass]="{'invalid': (!email.valid && (email.touched || submitted))}">
 
-                @if(!message.valid && message.touched){<span>{{ 'CONTACT.MESSAGE_EMPTY' | translate }}</span>}
+                @if(submitted && (message.invalid || (message.touched && !message.valid))){<span>{{ 'CONTACT.MESSAGE_EMPTY' | translate }}</span>}
                 <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message" id="message"
                     placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}" required minlength="5"
-                    [ngClass]="{'invalid': !message.valid && message.touched}"></textarea>
+                    [ngClass]="{'invalid': (!message.valid && (message.touched || submitted))}"></textarea>
 
                 <div class="checkbox-wrapper">
                     <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel"
-                        required />
+                        required
+                        [ngClass]="{'invalid': (!contactData.acceptPolicy || submitted)}" />
                     <label for="privacy">
                         {{ 'CONTACT.PRIVACY_READ' | translate }}
                         <a routerLink="/privacy-policy">{{ 'CONTACT.PRIVACY_POLICY' | translate }}</a> 
@@ -39,18 +40,14 @@
                     </label>
                 </div>
 
-                @if(privacy.touched && !contactData.acceptPolicy) {
+                @if((privacy.touched || submitted) && !contactData.acceptPolicy) {
                 <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
                 }
                 <br><br>
 
                 <button class="send-button"
                 type="submit"
-                [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}"
-                [ngStyle]="{
-                    'background-color': contactForm.valid && contactData.acceptPolicy ? 'white' : 'lightgray'
-                }"
-                [disabled]="!contactForm.valid || !contactData.acceptPolicy">
+                [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                 {{ buttonText }}
             </button> <br><br><br><br><br>
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"

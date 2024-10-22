@@ -2,7 +2,7 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
-    background: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF) ;
+    background: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
     background-size: 8%, 3%, 6%, 100%;
     background-position:
         70% 5%,
@@ -43,6 +43,11 @@ section {
         height: 30px;
         width: 30px;
     }
+}
+
+.inactive {
+    color: unset !important;
+    background-color: unset !important;
 }
 
 
