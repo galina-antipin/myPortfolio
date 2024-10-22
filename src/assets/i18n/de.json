@@ -69,7 +69,10 @@
         "PRIVACY_READ": "Ich habe die ",
         "PRIVACY_POLICY": "Datenschutzrichtlinien",
         "PRIVACY_AGREE": " gelesen und stimme der Verarbeitung meiner Daten zu.",
-        "ACCEPT_PRIVACY": "Bitte akzeptiere die Datenschutzrichtlinien."
+        "ACCEPT_PRIVACY": "Bitte akzeptiere die Datenschutzrichtlinien.",
+        "FEEDBACK_SUCCESS_THANK_YOU": "Vielen Dank,",
+        "FEEDBACK_SUCCESS_MESSAGE": "Deine Nachricht wurde gesendet.",
+        "FEEDBACK_ERROR": "Es gab ein Problem mit dem Senden deiner Nachricht."
     },
     "FOOTER": {
         "IMPRINT": "Impressum"

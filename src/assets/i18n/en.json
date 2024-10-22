@@ -69,7 +69,10 @@
         "PRIVACY_READ": "I've read the ",
         "PRIVACY_POLICY": "privacy-policy",
         "PRIVACY_AGREE": " and agree to the processing of my data.",
-        "ACCEPT_PRIVACY": "Please accept the privacy policy."
+        "ACCEPT_PRIVACY": "Please accept the privacy policy.",
+        "FEEDBACK_SUCCESS_THANK_YOU": "Thank you,",
+        "FEEDBACK_SUCCESS_MESSAGE": "Your message has been sent.",
+        "FEEDBACK_ERROR": "There was a problem sending your message."
     },
     "FOOTER": {
         "IMPRINT": "Imprint"

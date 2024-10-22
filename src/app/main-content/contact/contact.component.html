@@ -45,16 +45,17 @@
                 @if((privacy.touched || submitted) && !contactData.acceptPolicy) {
                 <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
                 }
-         
-                <div @if(feedbackMessage) class="feedback-message">
-                    {{ feedbackMessage }}
-                </div>
 
-                <button class="send-button" type="submit"
+              @if(feedbackMessage) {
+                <div class="feedback-message" >
+                    {{ 'CONTACT.FEEDBACK_SUCCESS_THANK_YOU' | translate}}  {{ contactData.name }}! {{ 'CONTACT.FEEDBACK_SUCCESS_MESSAGE' | translate }}
+                </div>}
+
+                <button click="showFeedback()" class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                     {{ buttonText }}
-                </button> 
- 
+                </button>
+
                 <a href="#header"> <img class="arrow-top-icon" src="./../../../assets/img/arrow-top-icon.png"
                         alt="Arrow top">
                 </a>
