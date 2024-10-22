@@ -51,11 +51,12 @@ export class ContactComponent {
         .subscribe({
           next: (response) => {
             setTimeout(() => {
-            ngForm.resetForm()}, 2000);    this.feedbackMessage = true;
+            ngForm.resetForm()}, 3000);    
+            this.feedbackMessage = true;
             this.submitted = false;
             setTimeout(() => {
               this.feedbackMessage = false;
-            }, 2000);
+            }, 3000);
           },
           error: (error) => {
             this.feedbackMessage = 'error';

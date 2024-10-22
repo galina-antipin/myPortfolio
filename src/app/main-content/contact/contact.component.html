@@ -46,12 +46,8 @@
                 <span>{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
                 }
 
-              @if(feedbackMessage) {
-                <div class="feedback-message" >
-                    {{ 'CONTACT.FEEDBACK_SUCCESS_THANK_YOU' | translate}}  {{ contactData.name }}! {{ 'CONTACT.FEEDBACK_SUCCESS_MESSAGE' | translate }}
-                </div>}
 
-                <button click="showFeedback()" class="send-button" type="submit"
+                <button class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                     {{ buttonText }}
                 </button>
@@ -60,6 +56,11 @@
                         alt="Arrow top">
                 </a>
             </form>
+            
+            @if(feedbackMessage) {
+                <div class="feedback-message" >
+                    {{ 'CONTACT.FEEDBACK_SUCCESS_THANK_YOU' | translate}}  {{ contactData.name }}! {{ 'CONTACT.FEEDBACK_SUCCESS_MESSAGE' | translate }}
+                </div>}
         </div>
     </div>
 </section>
