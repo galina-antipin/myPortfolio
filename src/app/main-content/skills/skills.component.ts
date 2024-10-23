@@ -29,6 +29,7 @@ export class SkillsComponent implements OnInit {
     { name: 'Git', icon: './../../../assets/img/git-icon.png' },
     { name: 'CSS', icon: './../../../assets/img/css-icon.png' },
     { name: 'Rest API', icon: './../../../assets/img/api-icon.png' },
+    // { name: 'Photoshop', icon: './../../../assets/img/photoshop-icon.png' },
     { name: 'Material Design', icon: './../../../assets/img/material-design-icon.png' },
     { name: 'Growth Mindset', icon: './../../../assets/img/study-icon.png' },
   ];

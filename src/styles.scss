@@ -4,24 +4,27 @@
   scroll-behavior: smooth;
 }
 
-html {
-  scrollbar-width: thin;
-  scrollbar-color: #d4e1fb #eff4fe;
-  border-radius: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #d4e1fb;
-}
-
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 12px;
+  display: none; /* Für Chrome, Safari und Edge */
 }
+// html {
+//   scrollbar-width: thin;
+//   scrollbar-color: #d4e1fb #eff4fe;
+//   border-radius: 15px;
+// }
 
-::-webkit-scrollbar-track {
-  background: #eff4fe;
-}
+// ::-webkit-scrollbar-thumb {
+//   background: #d4e1fb;
+// }
+
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   height: 12px;
+// }
+
+// ::-webkit-scrollbar-track {
+//   background: #eff4fe;
+// }
 
 h1 {
   line-height: 1;

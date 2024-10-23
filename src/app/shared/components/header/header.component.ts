@@ -21,8 +21,15 @@ export class HeaderComponent {
   }
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen; 
-  }
+    this.isMenuOpen = !this.isMenuOpen;
+    const body = document.body;
+
+    if (this.isMenuOpen) {
+        body.style.overflow = 'hidden';
+    } else {
+        body.style.overflow = '';
+    }
+}
 
   isMenuActive() {
     return this.isMenuOpen ? 'open' : ''; 
