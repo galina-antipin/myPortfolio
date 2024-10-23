@@ -1,4 +1,4 @@
-import { Component, inject} from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../../../translation.service';
 import { CommonModule } from '@angular/common';
@@ -14,10 +14,12 @@ export class HeaderComponent {
 
   translate = inject(TranslationService);
 
-  isMenuOpen = false; 
+  isMenuOpen = false;
 
   closeMenu() {
+    const body = document.body;
     this.isMenuOpen = false;
+    body.style.overflow = 'auto'
   }
 
   toggleMenu() {
@@ -25,13 +27,13 @@ export class HeaderComponent {
     const body = document.body;
 
     if (this.isMenuOpen) {
-        body.style.overflow = 'hidden';
+      body.style.overflow = 'hidden';
     } else {
-        body.style.overflow = '';
+      body.style.overflow = 'auto';
     }
-}
+  }
 
   isMenuActive() {
-    return this.isMenuOpen ? 'open' : ''; 
+    return this.isMenuOpen ? 'open' : '';
   }
 }
