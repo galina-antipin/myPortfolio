@@ -3,7 +3,6 @@ import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../../../translation.service';
 import { CommonModule } from '@angular/common';
 
-
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -23,5 +22,9 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen; 
+  }
+
+  isMenuActive() {
+    return this.isMenuOpen ? 'open' : ''; 
   }
 }
