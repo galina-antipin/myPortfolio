@@ -14,10 +14,6 @@ header {
     }
 }
 
-.d-none {
-    display: none !important;
-}
-
 h1 {
     font-size: 5vh;
     font-family: 'Baloo 2';
@@ -69,6 +65,10 @@ nav {
     }
 }
 
+.logo {
+    width: 150px;
+}
+
 .hamburger-icon img {
     width: 35px;
 
@@ -95,7 +95,6 @@ nav {
     transition: transform 0.3s ease; 
     transform: translateX(-100%);
 }
-
 
 .open {
     display: flex;
