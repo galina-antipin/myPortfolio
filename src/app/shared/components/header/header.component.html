@@ -10,11 +10,20 @@
             <span (click)="translate.switchLanguage('de')">{{ 'HEADER.LANGUAGE_DE' | translate }}</span>|
             <span (click)="translate.switchLanguage('en')">{{ 'HEADER.LANGUAGE_EN' | translate }}</span>
         </nav>
-        <div class="responsive-menu"(click)="toggleMenuClick()">
+        <div class="responsive-menu" (click)="toggleMenu()">
             <div class="hamburger-icon">
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
+            <img [src]="isMenuOpen ? './../../../../assets/img/close-icon.png' : './../../../../assets/img/hamburger-menu.png'" alt="Menu Icon" />
+            </div>
+        </div>
+
+        <div [ngClass]="{'open': isMenuOpen}" class="hamburger-menu">
+            <a href="#about-me" (click)="closeMenu()">{{ 'MENU.ABOUT_ME' | translate }}</a>
+            <a href="#skills" (click)="closeMenu()">{{ 'MENU.SKILLS' | translate }}</a>
+            <a href="#my-work" (click)="closeMenu()">{{ 'MENU.MY_WORK' | translate }}</a>
+            <a href="#contact" (click)="closeMenu()">{{ 'MENU.CONTACT' | translate }}</a>
+            <div class="translation-section">
+                <span (click)="translate.switchLanguage('de')">DE</span> |
+                <span (click)="translate.switchLanguage('en')">EN</span>
             </div>
         </div>
     </section>
