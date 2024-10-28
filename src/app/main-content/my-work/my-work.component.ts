@@ -33,7 +33,7 @@ export class MyWorkComponent implements OnInit {
       technologies: 'JavaScript | HTML | CSS',
       image: './../../../assets/img/game-img.png',
       liveLink: 'https://el-pollo-loco.galina-antipin.de',
-      githubLink: 'https://github.com/galina-antipin/El-Pollo-Loco'
+      githubLink: 'https://github.com/galina-antipin/El-Pollo-Loco-Game'
     },
     {
       id: 'POKEDEX',
