@@ -5,42 +5,27 @@
 }
 
 ::-webkit-scrollbar {
-  display: none; /* Für Chrome, Safari und Edge */
+  display: none; 
 }
-// html {
-//   scrollbar-width: thin;
-//   scrollbar-color: #d4e1fb #eff4fe;
-//   border-radius: 15px;
-// }
-
-// ::-webkit-scrollbar-thumb {
-//   background: #d4e1fb;
-// }
-
-// ::-webkit-scrollbar {
-//   width: 5px;
-//   height: 12px;
-// }
-
-// ::-webkit-scrollbar-track {
-//   background: #eff4fe;
-// }
 
 h1 {
   line-height: 1;
 }
 
-.primary-button {
-  white-space: nowrap;
-  margin-top: 10px;
-  color: #5988FF;
+button {  
   padding: 10px 20px;
   border: solid 2px;
-  border-radius: 8px;
+  border-radius: 8px;  
+  cursor: pointer;
+   white-space: nowrap;
+  margin-top: 10px;   
+  font-size: 23px;
+}
+
+.primary-button {
+  color: #5988FF;
   border-color: #5988FF;
   background-color: white;
-  cursor: pointer;
-  font-size: 23px;
 
   &:hover {
     background: linear-gradient(to right, #0043F0, #5988FF);
@@ -50,16 +35,9 @@ h1 {
 }
 
 .send-button {
-  white-space: nowrap;
-  margin-top: 10px;
   color: #5988FF;
-  padding: 10px 20px;
-  border: solid 2px;
-  border-radius: 8px;
   border-color: #5988FF;
   background-color: white;
-  cursor: pointer;
-  font-size: 23px;
   margin-top: 10%;
   margin-bottom: 15%;
 
@@ -70,6 +48,20 @@ h1 {
   }
 }
 
+.test-button {
+  background: linear-gradient(to right, #0043F0, #5988FF);
+  border: solid 2px;
+  border-radius: 8px;  
+  color: white;
+
+  &:hover {
+    color: #5988FF;
+    border-color: #5988FF;
+    background: none;
+    border: solid 2px;
+    border-radius: 8px;  
+  }
+}
 
 .inactive {
   color: grey !important;
