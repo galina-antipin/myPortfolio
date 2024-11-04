@@ -37,7 +37,7 @@ button {
     margin-right: 8%;
     display: flex;
     justify-content: space-between;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-bottom: 5%;
     background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
     background-size: 12%, 5%;
@@ -138,6 +138,13 @@ span {
         align-items: center;
         margin-left: 3%;
         margin-right: 3%;
+        background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
+        background-size: 20%, 8%;
+        background-position: center -18%, bottom 80% right;
+    }
+
+    .left-content {
+        margin-top: 5%;
     }
 
     .text-content {
@@ -156,6 +163,23 @@ span {
     button {
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 730px) {
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        background-image: url('./../../../assets/img/circle.png'), url('./../../../assets/img/circle.png');
+        background-size: 10%, 12%;
+        background-position: center -18%, bottom 80% right;
+    }
+
+    .left-content {
+        margin-top: 0%;
     }
 }
 
