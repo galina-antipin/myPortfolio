@@ -88,10 +88,6 @@ img {
     }
 }
 
-.icons-section img:hover[src*="location-icon.png"] {
-    content: url('./../../../assets/img/location-icon-hover.png');
-}
-
 @media(max-width: 1200px) {
 
     h1 {
