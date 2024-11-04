@@ -33,16 +33,13 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 100px;
 }
 
 .footer-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    a {
-        margin-right: 70px;
-    }
 }
 
 .footer-right img {
@@ -61,7 +58,8 @@ p {
 }
 
 .logo {
-    width: 120px;
+    width: 200px;
+    margin-left: -40px;
 }
 
 @media (max-width: 851px) {
@@ -75,6 +73,7 @@ p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: auto;
     }
 
     .footer-content {
@@ -95,6 +94,7 @@ p {
         width: 100px;
         margin-bottom: -20px;
         margin-top: -20px;
+        margin-left: 0;
     }
 
     .footer-bottom a {
