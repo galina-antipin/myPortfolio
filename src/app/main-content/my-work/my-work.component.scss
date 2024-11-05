@@ -177,12 +177,19 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         flex-direction: column-reverse;
-        margin-bottom: 10%;
         padding-left: 0;
         padding-right: 0 !important;
         text-align: center !important;
     }
+
+    .middle-container {
+        .project-content {
+            justify-content: center;
+            padding-right: 0;
+            padding-left: 0px;
+        }}
 
     section {
         width: 100%;
@@ -220,7 +227,11 @@ img {
         width: 100%;
         padding-right: 0;
         padding-left: 0 !important;
-        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
     }
 
     p {
