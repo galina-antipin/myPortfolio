@@ -5,20 +5,20 @@
 }
 
 ::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 h1 {
   line-height: 1;
 }
 
-button {  
+button {
   padding: 10px 20px;
   border: solid 2px;
-  border-radius: 8px;  
+  border-radius: 10px;
   cursor: pointer;
-   white-space: nowrap;
-  margin-top: 10px;   
+  white-space: nowrap;
+  margin-top: 10px;
   font-size: 23px;
 }
 
@@ -50,16 +50,12 @@ button {
 
 .test-button {
   background: linear-gradient(to right, #0043F0, #5988FF);
-  border: solid 2px;
-  border-radius: 8px;  
   color: white;
+  border-color: #5988FF;
 
   &:hover {
     color: #5988FF;
-    border-color: #5988FF;
     background: none;
-    border: solid 2px;
-    border-radius: 8px;  
   }
 }
 
