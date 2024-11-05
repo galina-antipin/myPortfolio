@@ -47,6 +47,7 @@ span {
     img {
         height: 90vh;
         max-height: 1440px;
+        overflow: hidden;
     }
 }
 
@@ -358,7 +359,7 @@ span {
     section {
         height: calc(80vh - 100px);
     }
-    
+
     .left-content {
 
         img {
