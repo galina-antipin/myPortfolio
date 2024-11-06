@@ -382,6 +382,14 @@ span {
     }
 }
 
+@media(max-height:667px){
+    section {
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 500px, 100%;
+        background-position: 50% -120%;
+    }
+}
+
 @media(max-height:375px) {
     h1 {
         font-size: 5rem;
