@@ -351,15 +351,15 @@ span {
     span {
         font-size: 2rem;
     }
-}
 
-@media(max-width:410px) {
     .left-content {
-
         img {
             height: 45vh;
         }
     }
+}
+
+@media(max-width:410px) {
 
     h1 {
         font-size: 3.2rem;
@@ -374,19 +374,7 @@ span {
     }
 }
 
-@media(max-width:340px) {
-    .left-content {
-        width: 95%;
-
-        img {
-            height: 40vh;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
-}
-
-@media(max-height:667px) {
+@media(max-height:667px)  and (orientation: landscape) {
     .left-content {
         img {
             display: none;
