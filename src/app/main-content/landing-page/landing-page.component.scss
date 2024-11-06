@@ -132,24 +132,24 @@ span {
 
 @media(max-width:1617px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 1000px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 1000px, 100%;
         background-position: -40% 80%;
     }
 }
 
 @media(max-width:1507px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 900px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 900px, 100%;
         background-position: -40% 80%;
     }
 }
 
 @media(max-width:1394px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 850px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 850px, 100%;
         background-position: -40% 80%;
     }
 }
@@ -170,8 +170,8 @@ span {
 
 @media(max-width:1263px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 800px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 800px, 100%;
         background-position: -40% 80%;
     }
 
@@ -184,8 +184,8 @@ span {
 
 @media(max-width:1203px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 750px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 750px, 100%;
         background-position: -40% 80%;
     }
 
@@ -204,8 +204,8 @@ span {
 
 @media(max-width:1112px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 700px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 700px, 100%;
         background-position: -40% 80%;
     }
 
@@ -224,8 +224,8 @@ span {
 
 @media(max-width:1000px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 650px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 650px, 100%;
         background-position: -40% 80%;
     }
 
@@ -248,9 +248,9 @@ span {
 
 @media(max-width:950px) {
     section {
-        background-image: url('./../../../assets/img/circle.png');
-        background-size: 900px;
-        background-position: -150px -200px;
+        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 900px, 100%;
+        background-position: -150px -200px, center;
         color: white;
     }
 
