@@ -32,6 +32,9 @@
                     placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}" required minlength="5"
                     [ngClass]="{'invalid': (!message.valid && (message.touched || submitted))}"></textarea>
 
+                    @if((privacy.touched || submitted) && !contactData.acceptPolicy) {
+                        <span class="accept-policy-warning-span">{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
+                        }
                 <div class="checkbox-wrapper">
                     <input type="checkbox" [(ngModel)]="contactData.acceptPolicy" name="privacy" #privacy="ngModel"
                         required [ngClass]="{'invalid': (!contactData.acceptPolicy || submitted)}" />
@@ -41,11 +44,6 @@
                         {{ 'CONTACT.PRIVACY_AGREE' | translate }}
                     </label>
                 </div>
-
-                @if((privacy.touched || submitted) && !contactData.acceptPolicy) {
-                <span class="accept-policy-warning-span">{{ 'CONTACT.ACCEPT_PRIVACY' | translate }}</span>
-                }
-
                 <button class="send-button" type="submit"
                     [ngClass]="{'inactive': !contactForm.valid || !contactData.acceptPolicy}">
                     {{ 'CONTACT.BUTTON_TEXT' | translate }}
