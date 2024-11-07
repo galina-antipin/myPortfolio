@@ -4,7 +4,7 @@ section {
     color: #5988FF;
     display: flex;
     justify-content: center;
-    background: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+    background: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
     background-size: 1100px, 100%;
     background-position: -40% 80%;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ span {
 
 @media(max-width:1617px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 1000px, 100%;
         background-position: -40% 80%;
     }
@@ -140,7 +140,7 @@ span {
 
 @media(max-width:1507px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 900px, 100%;
         background-position: -40% 80%;
     }
@@ -148,7 +148,7 @@ span {
 
 @media(max-width:1394px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 850px, 100%;
         background-position: -40% 80%;
     }
@@ -170,7 +170,7 @@ span {
 
 @media(max-width:1263px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 800px, 100%;
         background-position: -40% 80%;
     }
@@ -184,7 +184,7 @@ span {
 
 @media(max-width:1203px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 750px, 100%;
         background-position: -40% 80%;
     }
@@ -204,7 +204,7 @@ span {
 
 @media(max-width:1112px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
         background-size: 700px, 100%;
         background-position: -40% 80%;
     }
@@ -224,9 +224,9 @@ span {
 
 @media(max-width:1000px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
-        background-size: 650px, 100%;
-        background-position: -40% 80%;
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 750px, 100%;
+        background-position: -60% 80%;
     }
 
     h1 {
@@ -246,10 +246,10 @@ span {
     }
 }
 
-@media(max-width:950px) {
+@media(max-width:989px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
-        background-size: 900px, 100%;
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 960px, 100%;
         background-position: -150px -200px, center;
         color: white;
     }
@@ -339,7 +339,7 @@ span {
     }
 }
 
-@media(max-width:480px) {
+@media(max-width:460px) {
     h1 {
         font-size: 4rem;
     }
@@ -354,12 +354,12 @@ span {
 
     .left-content {
         img {
-            height: 45vh;
+            height: 50vh;
         }
     }
 }
 
-@media(max-width:410px) {
+@media(max-width:424px) {
 
     h1 {
         font-size: 3.2rem;
@@ -370,23 +370,30 @@ span {
     }
 
     span {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
-@media(max-height:667px)  and (orientation: landscape) {
+@media(max-height:667px) and (orientation: landscape) {
     .left-content {
         img {
             display: none;
         }
     }
+
+    h1,.headline-top,span {
+        color: #5988FF;
+    }
+
+    .content-wrapper{
+     margin-right: 0%;}
 }
 
-@media(max-height:667px){
+@media(max-height:667px) {
     section {
-        background-image: url('./../../../assets/img/circle.png'),linear-gradient(to bottom, #FFFFFF, #EAF0FF);
-        background-size: 500px, 100%;
-        background-position: 50% -120%;
+        background-image: url('./../../../assets/img/circle.png'), linear-gradient(to bottom, #FFFFFF, #EAF0FF);
+        background-size: 600px, 100%;
+        background-position: 100% -120%;
     }
 }
 
