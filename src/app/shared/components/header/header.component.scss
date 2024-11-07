@@ -118,12 +118,12 @@ nav {
 }
 
 .open {
-    transform: translateX(0); 
+    transform: translateX(0);
 }
 
 .no-scroll {
     overflow: hidden;
-  }
+}
 
 @media(max-width:787px) {
     nav {
@@ -132,5 +132,11 @@ nav {
 
     .responsive-menu {
         display: block;
+    }
+}
+
+@media(max-height:620px) and (orientation: landscape) {
+    .hamburger-menu {
+        padding: 0px;
     }
 }
